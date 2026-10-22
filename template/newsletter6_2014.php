@@ -1,0 +1,166 @@
+        <div class="section no-pad-bot" id="index-banner">    
+            <div class="container">      
+                <br />
+                <br /> 
+                <div class="right">Letzte Aktualisierung: <b><?= date( "j.n.Y", filemtime( __FILE__ ) ) ?></b></div>
+                <h1 class="header center orange-text">DorisPaas-Newsletter</h1>      
+            </div>  
+        </div> 
+        <div class="container">    
+            <div class="section">   
+                <div class="row margintoprow">        
+                    <div class="col s12 m12">
+                        <img src="http://www.dorispaas.de/images/dorispaas-de-titelfoto-newsletter-w.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 0px;" /></a><br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <b>Ausgabe 6/2014 (November 2014)</b>
+                        <br />
+                        <br />
+                        ________________________________________________________________________________________________________
+                        <br />
+                        <br />
+                        <br />
+                        
+                        Liebe Leserin, lieber Leser.
+                        <br />
+                        <br />
+                        Nun ist auch das Jahr 2014 schon fast zu Ende &ndash; nur ein paar Wochen verbleiben 
+                        uns noch. Und diese Wochen sollten eine sch&ouml;ne, besinnliche Zeit f&uuml;r Sie sein. Doch 
+                        bei wem klappt das eigentlich? Die meisten Menschen klagen, dass gerade die Adventszeit 
+                        besonders hektisch ist, und dass viele Arbeiten unbedingt noch vor den Festtagen 
+                        erledigt werden m&uuml;ssen oder aber dass der Wunsch, Geschenke f&uuml;r die Lieben 
+                        zu kaufen, in Stress ausartet. Ich muss zugeben, dass auch f&uuml;r mich die 
+                        Vorweihnachtszeit nicht immer ganz so ist, wie ich es mir w&uuml;nsche. Deshalb 
+                        rufe ich mir diese Tatsache immer wieder ins Bewusstsein und versuche, mir t&auml;glich 
+                        kleine Freir&auml;ume zum Durchatmen und zum Entspannen zu schaffen. Als kleine 
+                        Hilfestellung und auch einfach &#187;nur&#171; mal zum Freuen habe ich mir einen 
+                        wundersch&ouml;nen, weihnachtlichen Stern ins Fenster neben meinem Schreibtisch 
+                        geh&auml;ngt &ndash; er erinnert mich jedesmal, wenn ich ihn anschaue, daran, wenigstens 
+                        kurz innezuhalten und eine kleine mentale Pause w&auml;hrend meiner Arbeit einzulegen.
+                        Bestimmt haben auch Sie Ihre eigene kleine pers&ouml;nliche Insel, auf der Sie 
+                        Kraft sch&ouml;pfen k&ouml;nnen &ndash; denken Sie doch gerade jetzt &ouml;fter 
+                        einmal daran!
+                        <br />
+                        <br />
+                        Nun freue ich mich, Sie ein letztes Mal in diesem Jahr auf einige der Neuerungen auf 
+                        <a href="http://www.dorispaas.de/" target="_blank">www.DorisPaas.de</a> aufmerksam 
+                        machen zu d&uuml;rfen:
+                        <br />
+                        <br />
+                        <hr>
+                        <br />
+                        <img src="http://www.dorispaas.de/images/praeparate-newsletter.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 0px;" /></a>
+                        <br />
+                        <b>&#149;	<a href="http://www.dorispaas.de/index.php?page=praeparatetest" target="_blank">Test von Pr&auml;paraten</a></b>
+                        <br />
+                        Sehr h&auml;ufig wird die Frage an mich gestellt, ob und welche Pr&auml;parate ich 
+                        bei den verschiedenen Nahrungsmittel-Unvertr&auml;glichkeiten empfehlen kann. Deshalb 
+                        habe ich eine Reihe von Nahrungs-Erg&auml;nzungsmitteln getestet und bewertet. Die 
+                        Ergebnisse dieser Tests finden Sie nun als Hilfestellung bei einer Kaufentscheidung 
+                        auf meiner Website. Getestet sind Pr&auml;parate zur Unterst&uuml;tzung bei 
+                        Laktose-Intoleranz, bei Fruktose-Intoleranz, bei Oligosaccharid-Intoleranz und 
+                        Probiotika, die bei Nahrungsmittel-Unvertr&auml;glichkeiten angezeigt sind. 
+                        <br />
+                        <br />
+                        <hr>
+                        <br />
+                        <img src="http://www.dorispaas.de/images/testset-newsletter.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 0px;" /></a>
+                        <br />
+                        <b>&#149;	<a href="http://www.dorispaas.de/index.php?page=selbsttests" target="_blank">Selbsttests bei Nahrungsmittel-Unvertr&auml;glichkeiten &ndash; wann sind sie sinnvoll?</a></b>
+                        <br />
+                        Bereits im letzten Newsletter fanden Sie einen Hinweis auf dieses Thema. Es handelte 
+                        sich um einen Beitrag in der Fachzeitschrift &#187;Ern&auml;hrung im Fokus&#171;. 
+                        Es gibt aber zu dieser Problematik noch sehr viel mehr zu sagen, als auf den 2 
+                        Seiten unterzubringen war. Hier finden Sie nun den ungek&uuml;rzten Bericht, den 
+                        Sie ggf. f&uuml;r Ihre Entscheidungsfindung heranziehen k&ouml;nnen.
+                        <br />
+                        <br />
+                        <hr>
+                        <br />
+                        <img src="http://www.dorispaas.de/images/vegan-newsletter.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 0px;" /></a>
+                        <br />
+                        <b>&#149;	<a href="http://www.dorispaas.de/index.php?page=ganz-vegan" target="_blank">Vegane Ern&auml;hrung &ndash; wie gesund ist sie? </a></b>
+                        <br />
+                        Immer wieder und vor allem in der letzten Zeit immer h&auml;ufiger begegnen mir 
+                        Menschen, die sich vegan ern&auml;hren und vegan leben. Sie vertreten meist lautstark
+                        die Meinung, dass die vegane Ern&auml;hrung sehr gesund sei. Dies habe ich in einem 
+                        Beitrag hinterfragt und die verschiedenen Gesichtspunkte beleuchtet, die f&uuml;r 
+                        oder gegen eine vegane Ern&auml;hrung sprechen. Mir ist durchaus bewusst, hier 
+                        wahrscheinlich wieder in ein &#187;Wespennest&#171; zu stechen, denn auch schon in 
+                        der Vergangenehit habe ich mich &ndash; beispielsweise auf Facebook &ndash; &uuml;ber 
+                        dieses Thema ge&auml;u&#223;ert. Und dann neben vielen zustimmenden leider auch 
+                        h&auml;ufig bitterb&ouml;se Zuschriften bekommen. Trotz allem wage ich es noch einmal, 
+                        etwas Genaueres &uuml;ber diese Ern&auml;hrungsform zu schreiben. Bitte lesen Sie 
+                        hierzu auch meine Rezensionen der B&uuml;cher &#187;<a href="http://www.dorispaas.de/index.php?page=blog-2014-11-10" target="_blank">Dumm 
+                        wie Brot &ndash; wie Weizen schleichend Ihr Gehirn zerst&ouml;rt</a>&#171; und 
+                        &#187;<a href="http://www.dorispaas.de/index.php?page=blog-2014-02-17" target="_blank">Weizenwampe</a>&#171;.
+                        <br />
+                        <br />
+                        <br />
+                        <hr>
+                        <br />
+                        <img src="http://www.dorispaas.de/images/kalender-newsletter.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 0px;" /></a>
+                        <br />
+                        Liebe Leserin, lieber Leser, am Schluss dieses letzten Newsletters f&uuml;r das Jahr 
+                        2014 m&ouml;chte ich mich ganz herzlich bei Ihnen f&uuml;r Ihr Interesse, f&uuml;r Ihre vielen 
+                        Fragen und Anregungen und auch Ihre vielen lieben Mails bedanken. Nicht zuletzt 
+                        durch Ihre Anteilnahme und Begleitung war es ein sehr sch&ouml;nes und vor allem 
+                        ereignisreiches Jahr.
+                        <br />
+                        <br />
+                        Und (nicht nur) weil es so &uuml;blich ist, sich zum Weihnachtsfest eine Freude 
+                        zu machen, habe ich zum Download einen 
+                        <a href="http://www.dorispaas.de/files/doris-paas-kalender-2015" target="_blank">Kalender</a> 
+                        f&uuml;r Sie vorbereitet. Einige Bilder, die ich im Laufe 
+                        des vergangenen Jahres aufgenommen habe, m&ouml;chte ich gerne mit Ihnen teilen. 
+                        Wenn Sie sich diesen Kalender ausdrucken, k&ouml;nnen Sie sich das ganze 
+                        n&auml;chste Jahr daran freuen.
+                        <br />
+                        <br />
+                        Ich w&uuml;nsche Ihnen f&uuml;r den Jahresausklang alles Gute und freue mich auf 
+                        das n&auml;chste Jahr mit Ihnen.
+                        Bis zum n&auml;chsten Newsletter, den Sie in zwei Monaten, also etwa Mitte Januar 
+                        2015 erhalten, sende ich Ihnen ganz herzliche Gr&uuml;&#223;e aus dem Rheinland 
+                        <br />
+                        Ihre
+                        <br />
+                        Doris Paas
+                        </p>
+                        <i>P.S. Gerne k&ouml;nnen Sie diesen Newsletter auch an Freunde und Bekannte weiterleiten!</i>
+                        <p>
+                        <hr>
+                        <hr>
+                        <img src="http://www.dorispaas.de/images/termine-klein.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 0px;" /></a>
+                        <br />
+                        &#149;	Beachten Sie bitte auch die Hinweise zu den <a href="http://www.dorispaas.de/index.php?page=termine" target="_blank">Terminen 
+                        f&uuml;r die Veranstaltungen</a>, zu denen ich Sie herzlich einlade.  
+                        <br />
+                        &#149;	S&auml;mtliche neuen Beitr&auml;ge finden Sie immer unter dem Button 
+                        &#187;<a href="http://www.dorispaas.de/index.php?page=news" target="_blank">neueste Betr&auml;ge</a>&#171; 
+                        in der Seiten-Navigation.
+                        <br />
+                        &#149;	Den besten &Uuml;berblick &uuml;ber die kompletten Inhalte auf www.DorisPaas.de 
+                        finden Sie in der <a href="http://www.dorispaas.de/sitemap-html" target="_blank">Sitemap</a> 
+                        in der Seiten-Navigation.
+                        <br />
+                        <br />
+                        <hr>
+                        <br />
+                        Sie k&ouml;nnen den Erhalt des Newsletters jederzeit abbestellen.
+                        Bitte klicken Sie auf <a href="http://www.dorispaas.de/index.php?page=unsubscribe_newsletter&amp;ticket=%UNSUBSCRIBE_TICKET%" target="_blank">diesen Link</a>.
+                        <br />
+                        Ihre Mailadresse wird im Verteiler gel&ouml;scht, und Sie erhalten keine Mails mehr.
+                        </p>
+                    </div>
+                </div>
+            </div>    
+            <br>
+            <br> 
+            <div class="bodyspacer"></div> 
+        </div>

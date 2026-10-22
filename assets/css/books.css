@@ -1,0 +1,87 @@
+.book-index
+{
+}
+
+.book-index h2
+{
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 25px;
+}
+
+.book-index ul.struc
+{
+    list-style-type: none;
+    padding: 0 0 0 10px;
+}
+
+.book-index ul.struc.sub1
+{
+    display: none;
+    height: 0;
+    transition: height 2s;
+}
+
+.book-index ul.struc.sub1.expanded
+{
+    display: list-item;
+    height: auto;
+    transition: height 2s;
+}
+
+.book-index ul.struc .row
+{
+    width: 100%;
+    border-spacing: 0;
+    border: none;
+}
+
+/* Uncomment this to make the sub chapter row as wide was parent chapter row. */
+/*
+.book-index ul.struc.sub1 .row
+{
+    width: 416px;
+}
+*/
+
+.book-index ul.struc .row td
+{
+    white-space: nowrap;
+}
+
+.book-index ul.struc .row td.chap-title
+{
+    width: 1px;
+    cursor: pointer;
+}
+
+.book-index ul.struc .row td.chap-title:hover
+{
+    text-decoration: none;
+}
+
+.book-index ul.struc .row td.dots
+{
+}
+
+.book-index ul.struc .row td.page-num
+{
+    width: 27px;
+    padding-left: 3px;
+}
+
+.book-index ul.struc .chapter-content
+{
+    padding: 10px 0 10px 30px;
+    height: 0;
+    transition: height 2s;
+    overflow: hidden;
+    display: none;
+}
+
+.book-index ul.struc .chapter-content.expanded
+{
+    display: block;
+    height: auto;
+    transition: height 2s;
+}

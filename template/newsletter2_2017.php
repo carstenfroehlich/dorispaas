@@ -1,0 +1,168 @@
+        <div class="section no-pad-bot" id="index-banner">    
+            <div class="container">      
+                <br />
+                <br /> 
+                <div class="right">Letzte Aktualisierung: <b><?= date( "j.n.Y", filemtime( __FILE__ ) ) ?></b></div>
+                <h1 class="header center orange-text">DorisPaas-Newsletter</h1>      
+            </div>  
+        </div> 
+        <div class="container">    
+            <div class="section">   
+                <div class="row margintoprow">        
+                    <div class="col s12 m12">
+                        <img src="<?php echo IMG_PATH; ?>dorispaas-de-titelfoto-newsletter-w.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 0px;" /></a><br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <b>Ausgabe 32 (Januar 2017)</b>
+                        <br />
+                        <br />
+                        _________________________________________________________________________
+                        <br />
+                        <br />
+                        <br />
+                        
+                        <a href="http://www.dorispaas.de/" target="_blank"><img src="<?php echo IMG_PATH; ?>nl-2017-02-titel.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 20px;" /></a>
+                        Liebe Leserin, lieber Leser.
+                        <br />
+                        Nach viel zu vielen ungem&uuml;tlichen, kalten und regnerischen Tagen scheint nun 
+                        immer wieder die Sonne, und es wird endlich w&auml;rmer. Die ersten Fr&uuml;hbl&uuml;her 
+                        haben schon seit einigen Wochen die K&ouml;pfe aus der Erde gestreckt und erfreuen 
+                        uns im Sonnenschein mit ihren fr&ouml;hlichen Farben. Und sp&auml;testens jetzt 
+                        jetzt bekommen wir Lust und Appetit auf frische Kr&auml;uter, um Salate und viele 
+                        andere Speisen nicht nur mit leckerem Aroma, sondern auch mit einem guten Schuss 
+                        Vitamine und Mineralien aufzupeppen. Solange wir die Pflanzen noch nicht im 
+                        Au&#223;enbereich auss&auml;en k&ouml;nnen, empfehle ich Ihnen, sich auf der Fensterbank 
+                        einen kleinen Kr&auml;utergarten anzulegen. Das macht nicht nur gute Laune, sondern 
+                        kann Sie zu jeder Zeit mit einem Frischekick versorgen. Probieren Sie es doch einmal 
+                        aus. Derzeit gibt es in fast jedem Supermarkt ein Regal mit geeigneten S&auml;mereien. 
+                        Besorgen Sie sich T&ouml;pfchen oder einen Blumenkasten, f&uuml;llen gute Blumenerde 
+                        ein und streuen den Samen aus. Wenn Sie das Gie&#223;en nicht vergessen, k&ouml;nnen 
+                        Sie schon nach kurzer Zeit ganz nach Bedarf Schnittlauch, Petersilie, Kresse und 
+                        viele andere leckere Kr&auml;uter ernten.
+                        <br />
+                        <br />
+                        <hr>
+                        <br />
+                        <a href="http://www.dorispaas.de/index.php?page=antibiotika" target="_blank"><img src="<?php echo IMG_PATH; ?>nl-2017-02-antibiotika.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 0px;" /></a>
+                        <b>&#149;	<a href="http://www.dorispaas.de/index.php?page=antibiotika" target="_blank">Antibiotika und Darmgesundheit</a></b>
+                        <br />
+                        Allein f&uuml;r Deutschland wird der j&auml;hrliche Verbrauch von Antibiotika in den 
+                        verschiedenen Quellen mit 1.000 bis sogar 2.300 Tonnen angegeben! Nur etwas mehr als 
+                        die H&auml;lfte davon entf&auml;llt dabei auf die Humanmedizin, der Rest auf die Tiermedizin 
+                        und -mast. Was aber haben Antibiotika mit unserer Gesundheit im Allgemeinen und 
+                        mit der Darmgesundheit im Besonderen zu tun? Durch die Einnahme von antibiotischen 
+                        Medikamenten und auch durch die st&auml;ndige Kontaminierung durch Antibiotikareste 
+                        in unserer Nahrung kommt unsere Darmflora je nach Art und Menge der verzehrten 
+                        Nahrungsmittel fortgesetzt mit Antibiotika in Kontakt. Leider sind es gerade die 
+                        sensiblen n&uuml;tzlichen Darmbakterien, denen dadurch in unserem inneren &Ouml;kosystem 
+                        das (&Uuml;ber)Leben schwer gemacht wird. Kein Wunder also, dass zahlreiche Krankheiten 
+                        immer mehr zunehmen, weil unser eigenes Immunsystem nicht mehr richtig funktionieren kann. 
+                        Und diverse Erkrankungen werden wahrscheinlich sogar durch eine desolate Darmflora 
+                        &uuml;berhaupt erst verursacht.
+                        <br />
+                        <br />
+                        <hr>
+                        <br />
+                        <a href="http://www.dorispaas.de/index.php?page=termine" target="_blank"><img src="<?php echo IMG_PATH; ?>nl-2017-02-termin.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 10px;" /></a>
+                        <b>&#149;	<a href="http://www.dorispaas.de/index.php?page=termine" target="_blank">Vortrag in K&ouml;ln: Laktose-Intoleranz und andere Nahrungsmittelunvertr&auml;glichkeiten &ndash; was tun?</a></b>
+                        <br />
+                        Von der Laktose-Intoleranz hat mittlerweile fast jeder etwas geh&ouml;rt. Aber es 
+                        gibt noch viele weitere Nahrungsmittel-Unvertr&auml;glichkeiten. Da sind die 
+                        Fruktose- und die Sorbit-Unvertr&auml;glichkeit, aber auch die Oligosaccharid- 
+                        und die Histamin-Intoleranz und die verschiedenen Formen der Gluten-Unvertr&auml;glichkeit. 
+                        Was hat es damit auf sich? Sind das Allergien oder gibt es da Unterschiede? Was 
+                        darf man essen und was muss man meiden, damit es einem gut geht? Und immer wieder 
+                        die Frage danach, was man essen darf, wenn mehrere Unvertr&auml;glichkeiten 
+                        gleichzeitig auftreten. Egal, ob Sie selbst betroffen sind, oder ob Sie einen 
+                        Betroffenen kennen und mit ihm gemeinsam essen wollen &ndash; je mehr Sie &uuml;ber 
+                        diese Nahrungsmittel-Unvertr&auml;glichkeiten wissen, desto sicherer k&ouml;nnen 
+                        Sie damit umgehen. Kommen Sie am Mittwoch, dem 15.3.2017 von 18:00 &ndash; 19:30 Uhr
+                        in das VHS-Studienhaus in der C&auml;cilienstra&#223;e am Neumarkt in 50667 
+                        K&ouml;ln. Ich freue mich auf Sie!
+                        <br />
+                        <br />
+                        <hr>
+                        <br />
+                        <a href="http://www.dorispaas.de/index.php?page=vitalpilze" target="_blank"><img src="<?php echo IMG_PATH; ?>nl-2017-02-vitalpilze.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 10px;" /></a>
+                        <b>&#149;	<a href="http://www.dorispaas.de/index.php?page=vitalpilze" target="_blank">Aktualisierung des Beitrags &#187;Vitalpilze&#171;</a></b>
+                        <br />
+                        Vitalpilze werden seit langer Zeit in der &ouml;stlichen Medizin verwendet, aber 
+                        auch die westliche Klostermedizin nutzte die Heilkr&auml;fte der Pilze. Nur sehr 
+                        zaghaft hat sich bei uns bis heute die Erkenntnis durchgesetzt, was diese kleinen 
+                        Wunderwerke der Natur leisten k&ouml;nnen. Dabei ist gerade bei Verdauungsproblemen 
+                        der Einsatz von Vitalpilzen besonders hilfreich, und auch bei der Wiederherstellung 
+                        der Darmgesundheit bzw. bei der Vorbeugung vor darmassoziierten Erkrankungen leisten 
+                        sie unverzichtbare Dienste. Die sogenannte Mykotherapie ist ein wichtiger Bereich 
+                        in der Naturheilkunde, und die Anwendungsgebiete von Vitalpilzen sind sehr breit 
+                        gef&auml;chert. Jede Art hat ihre ganz speziellen Wirkungen, die sich teilweise 
+                        ideal erg&auml;nzen. Nicht ganz unproblematisch kann es jedoch sein, wenn man 
+                        versucht, diese als Nahrungserg&auml;nzungsmittel vertriebenen Pr&auml;parate ohne das n&ouml;tige Vorwissen 
+                        selbst auszusuchen und sie dar&uuml;ber hinaus auch aus fragw&uuml;rdigen Quellen 
+                        bezieht. Gerne helfe ich Ihnen, sich hier richtig schlau zu machen, die f&uuml;r 
+                        Sie &#187;passenden&#171; Pr&auml;parate auszuw&auml;hlen und nenne Ihnen 
+                        zertifizierte Bezugsquellen.
+                        <br />
+                        <br />
+                        <hr>
+                        <br />
+                        Liebe Leserin, lieber Leser, der Fr&uuml;hling ist seit eh und je der Monat, in 
+                        dem die Menschen ganz besonders an ihre Gesundheit denken. Nicht nur die l&auml;nger 
+                        werdenden Tage mit mehr Sonnenlicht tun uns gut, auch die frischen Angebote an 
+                        Gem&uuml;se und Kr&auml;utern laden dazu ein, sich etwas Gutes zu tun. Ihre Darmflora, 
+                        die in diesem Newsletter ein Schwerpunktthema dargestellt hat, wird es Ihnen danken.
+                        In diesem Sinne w&uuml;nsche ich Ihnen f&uuml;r Ihr Kr&auml;uterg&auml;rtlein auf der 
+                        Fensterbank einen gr&uuml;nen Daumen und f&uuml;r Ihre Gesundheit alles Gute. 
+                        <br />
+                        <br />
+                        Bis zum n&auml;chsten Newsletter, den Sie in zwei Monaten, also 
+                        etwa Mitte Mai 2017 erhalten, sende ich Ihnen ganz herzliche Gr&uuml;&#223;e aus dem Rheinland 
+                        <br />
+                        Ihre
+                        <br />
+                        <img src="<?php echo IMG_PATH; ?>nl-unterschrift-dopa.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 10px; padding-bottom: 0px;" />
+                        </p>
+                        <br />
+                        <br />
+                        <br />
+                        <i>P.S. Gerne k&ouml;nnen Sie diesen Newsletter auch an Freunde und Bekannte weiterleiten!</i>
+                        <p>
+                        <hr>
+                        <hr>
+                        <a href="http://www.dorispaas.de/index.php?page=termine" target="_blank"><img src="<?php echo IMG_PATH; ?>newsletter-zettel.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 0px;" /></a>
+                        <br />
+                        &#149;	Beachten Sie bitte auch die Hinweise zu den <a href="http://www.dorispaas.de/index.php?page=termine" target="_blank">Terminen</a> 
+                        f&uuml;r die Veranstaltungen, zu denen ich Sie herzlich einlade.  
+                        <br />
+                        &#149;	S&auml;mtliche neuen Beitr&auml;ge finden Sie immer unter dem Button 
+                        &#187;<a href="http://www.dorispaas.de/index.php?page=news" target="_blank">neueste Betr&auml;ge</a>&#171; 
+                        in der Seiten-Navigation.
+                        <br />
+                        &#149;	Den besten &Uuml;berblick &uuml;ber die kompletten Inhalte auf www.DorisPaas.de 
+                        finden Sie in der <a href="http://www.dorispaas.de/sitemap-html" target="_blank">Sitemap</a> 
+                        in der Seiten-Navigation.
+                        <br />
+                        &#149;	www.dorispaas.de &ndash; garantiert <a href="http://www.dorispaas.de/guterrat" target="_blank">werbefreie 
+                        und unabh&auml;ngige Informationen</a>. 
+                        
+                        <br />
+                        <br />
+                        <hr>
+                        <br />
+                        Sie k&ouml;nnen den Erhalt des Newsletters jederzeit abbestellen.
+                        Bitte klicken Sie auf <a href="http://www.dorispaas.de/index.php?page=unsubscribe_newsletter&amp;ticket=%UNSUBSCRIBE_TICKET%" target="_blank">diesen Link</a>.
+                        <br />
+                        Ihre Mailadresse wird im Verteiler gel&ouml;scht, und Sie erhalten keine Mails mehr.
+                        </p>
+                    </div>
+                </div>
+            </div>    
+            <br>
+            <br> 
+            <div class="bodyspacer"></div> 
+        </div>

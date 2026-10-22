@@ -1,0 +1,162 @@
+        <div class="section no-pad-bot" id="index-banner">    
+            <div class="container">      
+                <br />
+                <br /> 
+                <div class="right">Letzte Aktualisierung: <b><?= date( "j.n.Y", filemtime( __FILE__ ) ) ?></b></div>
+                <h1 class="header center orange-text">DorisPaas-Newsletter</h1>      
+            </div>  
+        </div> 
+        <div class="container">    
+            <div class="section">   
+                <div class="row margintoprow">        
+                    <div class="col s12 m12">
+                        <img src="<?php echo IMG_PATH; ?>dorispaas-de-titelfoto-newsletter-w.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 0px;" /></a><br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <b>Ausgabe 27 (M&auml;rz 2016)</b>
+                        <br />
+                        <br />
+                        <hr>
+                        <br />
+                        <br />
+                        
+                        <a href="http://www.dorispaas.de/" target="_blank"><img src="<?php echo IMG_PATH; ?>nl-2016-02-titel.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 10px;" /></a>
+                        Liebe Leserin, lieber Leser.
+                        <br />
+                        Nachdem in den ersten Januarwochen fr&uuml;hlingshaftes Wetter herrschte, gab es 
+                        dann im Februar doch noch frostige Temperaturen. Das ist gut, denn so m&uuml;ssen 
+                        wir uns voraussichtlich im Sommer nicht vor einer Insektenplage f&uuml;rchten.
+                        In den letzten Tagen ist es nun aber endg&uuml;ltig und jahreszeitlich passend Fr&uuml;hling 
+                        geworden. Genau rechtzeitig vor Ostern sind die Osterglocken aufgebl&uuml;ht, und 
+                        auch die ersten B&auml;rlauchbl&auml;tter sind schon erntereif und laden dazu ein, 
+                        den K&ouml;rper mit einem leckeren, vitaminreichen Pesto aus dem Winterschlaf 
+                        zu wecken. Die Zubereitung ist ganz einfach: 
+                        Einige Handvoll B&auml;rlauchbl&auml;tter kleinschneiden und reichlich natives Hanf- 
+                        oder Oliven&ouml;l, Pinienkerne und geriebenen Parmesank&auml;se dazugeben. Alles 
+                        kurz mit dem P&uuml;rierstab zu einer Paste verarbeiten, mit Salz und Pfeffer 
+                        w&uuml;rzen und mit Nudeln genie&#223;en. Guten Appetit. 
+                        <br />
+                        <br />
+                        <br />
+                        <hr>
+                        <br />
+                        <a href="http://www.dorispaas.de/index.php?page=fodmaps" target="_blank"><img src="<?php echo IMG_PATH; ?>nl-2016-02-fodmaps.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 0px;" /></a>
+                        <b>&#149;	<a href="http://www.dorispaas.de/index.php?page=fodmaps" target="_blank">Die FODMAP-Di&auml;t</a></b>
+                        <br />
+                        <br />
+                        Bei manchen Menschen mit Nahrungsmittel-Unvertr&auml;glichkeiten, dem Reizdarm-Syndrom 
+                        und/oder einer D&uuml;nndarmfehlbesiedelung zeigen die &#187;&uuml;blichen&#171; 
+                        Di&auml;ten nicht den gew&uuml;nschten Erfolg. Auch wenn die einzelnen unbek&ouml;mmlichen 
+                        Stoffe gemieden werden, gehen in diesen F&auml;llen Beschwerden wie Bauchschmerzen, 
+                        Bl&auml;hungen, Durchf&auml;lle und/oder Verstopfung und viele andere nicht auf 
+                        ein akzeptables Ma&#223; zur&uuml;ck. Hilfreich kann dann neben der erforderlichen 
+                        Reduzierung der unvertr&auml;glichen Stoffe zus&auml;tzlich die Einhaltung einer 
+                        Di&auml;t mit einem geringeren Anteil an bestimmten  Kohlenhydraten sein, den sogenannten FODMAPs. Diese 
+                        Ern&auml;hrung ist leichter verdaulich, und sch&auml;dlichen Darmbakterien wird 
+                        mit dem geringeren Ballaststoffanteil die Lebensgrundlage entzogen. 
+                        <br />
+                        <br />
+                        <br />
+                        <hr>
+                        <br />
+                        <a href="http://www.dorispaas.de/index.php?page=lebensmittel-datenbank-info" target="_blank"><img src="<?php echo IMG_PATH; ?>nl-2016-02-lebensmitteldatenbankmitfodmaps.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 0px;" /></a>
+                        <b>&#149;	<a href="http://www.dorispaas.de/index.php?page=lebensmittel-datenbank-info" target="_blank">&#187;DorisPaas.de &#150; Lebensmittel-Datenbank&#171; ab sofort mit dem FODMAP-Gehalt</a></b>
+                        <br />
+                        <br />
+                        Um Ihnen bei Ihrer FODMAP-Di&auml;t die Auswahl geeigneter Lebensmittel so einfach 
+                        wie m&ouml;glich zu machen, k&ouml;nnen Sie ab sofort in der &#187;DorisPaas.de &#150; 
+                        Lebensmittel-Datenbank&#171; neben den bekannnten M&ouml;glichkeiten zus&auml;tzlich 
+                        auch die FODMAP-Gehalte s&auml;mtlicher Lebensmittel zu filtern. Mit einem Klick 
+                        ist jetzt ersichtlich, welche Lebensmittel einen hohen und 
+                        welche einen niedrigen FODMAP-Gehalt haben. Diese Erweiterung bezieht sich auf alle 
+                        derzeit fast tausendeinhundert Lebensmittel! Informieren Sie sich doch einmal 
+                        unverbindlich, welche Vorteile Sie mit der &#187;DorisPaas.de &#150; 
+                        Lebensmittel-Datenbank&#171; haben: Ich kann Ihnen versprechen, dass Sie sich auch 
+                        bei mehreren, gleichzeitig bestehenden Unvertr&auml;glichkeiten eine gro&#223;e Palette 
+                        an bek&ouml;mmlichen Nahrungsmitteln zusammenstellen k&ouml;nnen.
+                        <br />
+                        <br />
+                        <hr>
+                        <br />
+                        <a href="http://www.dorispaas.de/index.php?page=rds-wasistdas" target="_blank"><img src="<?php echo IMG_PATH; ?>nl-2016-02-beschwerdemaennchen.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 0px;" /></a>
+                        <b>&#149;	<a href="http://www.dorispaas.de/index.php?page=rds-wasistdas" target="_blank">Aktualisierung der Themen &#187;Reizdarm-Syndrom&#171; und &#187;D&uuml;nndarmfehlbesiedelung&#171;</a></b>
+                        <br />
+                        <br />
+                        Leider ist es bisher nur wenigen Medizinern bekannt, dass ein Reizdarm-Syndrom in 
+                        der weitaus &uuml;berwiegenden Zahl durch eine D&uuml;nndarmfehlbesiedelung verursacht 
+                        wird. Zwar wird heute schon &ouml;fter als fr&uuml;her geschaut, ob 
+                        Nahrungsmittel-Unvertr&auml;glichkeiten vorliegen und entsprechend getestet.
+                        Wenn dann aber die entsprechende Di&auml;t eingehalten wird und sich trotzdem nicht 
+                        der gew&uuml;nschte Erfolg einstellt und die Beschwerden auf ein ertr&auml;gliches 
+                        Ma&#223; zur&uuml;ck gehen, wird der Patient meist mit der Diagnose Reizdarm-Syndrom 
+                        und der lapidaren Aussage, das sei &#187;psychisch bedingt&#171;, nach Hause geschickt.
+                        Das ist nat&uuml;rlich wenig hilfreich, und man ist entsprechend ratlos und 
+                        verzweifelt. Hier w&uuml;rde die Behandlung der Ursache, also der D&uuml;nndarmfehlbesiedelung, 
+                        in den meisten F&auml;llen die Beschwerden g&auml;nzlich zum Abklingen bringen.
+                        <br />
+                        <br />
+                        <br />
+                        <hr>
+                        <br />
+                        Liebe Leserin, lieber Leser, nutzen Sie das traumhafte Wetter und die bevorstehenden freien Tage f&uuml;r ausgiebige 
+                        Spazierg&auml;nge. Gehen Sie nach drau&#223;en und genie&#223;en Sie die frische Luft. 
+                        Bewegen Sie sich und bringen Sie das w&auml;hrend der eher gem&uuml;tlichen, kalten 
+                        Jahreszeit eventuell faul gewordene Verdauungssystem in 
+                        Schwung. Ihr Darm und das &#187;Bauchhirn&#171; werden dies positiv registrieren 
+                        und Ihrem Kopfhirn maximales Wohlgef&uuml;hl signalisieren. Und wenn Sie eine 
+                        &#187;kleine Esss&uuml;nde&#171; w&auml;hrend der Feiertage auf diese Weise kompensieren, 
+                        wird diese aller Voraussicht nach kaum noch Beschwerden nach sich ziehen.
+                        <br />
+                        Ich w&uuml;nsche Ihnen eine gute Zeit und sende Ihnen bis zum n&auml;chsten 
+                        Newsletter, den Sie in zwei Monaten, also etwa Mitte Mai 2016 erhalten, ganz 
+                        herzliche Gr&uuml;&#223;e aus dem Rheinland 
+                        <br />
+                        Ihre
+                        <br />
+                        <img src="<?php echo IMG_PATH; ?>nl-unterschrift-dopa.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 10px; padding-bottom: 0px;" />
+                        </p>
+                        <br />
+                        <br />
+                        <br />
+                        <i>P.S. Gerne k&ouml;nnen Sie diesen Newsletter auch an Freunde und Bekannte weiterleiten!</i>
+                        <p>
+                        <hr>
+                        <hr>
+                        <a href="http://www.dorispaas.de/index.php?page=termine" target="_blank"><img src="<?php echo IMG_PATH; ?>newsletter-zettel.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 0px;" /></a>
+                        <br />
+                        &#149;	Beachten Sie bitte auch die Hinweise zu den <a href="http://www.dorispaas.de/index.php?page=termine" target="_blank">Terminen</a> 
+                        f&uuml;r die Veranstaltungen, zu denen ich Sie herzlich einlade.  
+                        <br />
+                        &#149;	S&auml;mtliche neuen Beitr&auml;ge finden Sie immer unter dem Button 
+                        &#187;<a href="http://www.dorispaas.de/index.php?page=news" target="_blank">neueste Betr&auml;ge</a>&#171; 
+                        in der Seiten-Navigation.
+                        <br />
+                        &#149;	Den besten &Uuml;berblick &uuml;ber die kompletten Inhalte auf www.DorisPaas.de 
+                        finden Sie in der <a href="http://www.dorispaas.de/sitemap-html" target="_blank">Sitemap</a> 
+                        in der Seiten-Navigation.
+                        <br />
+                        &#149;	www.dorispaas.de &ndash; garantiert <a href="http://www.dorispaas.de/guterrat" target="_blank">werbefreie 
+                        und unabh&auml;ngige Informationen</a>. 
+                        
+                        <br />
+                        <br />
+                        <hr>
+                        <br />
+                        Sie k&ouml;nnen den Erhalt des Newsletters jederzeit abbestellen.
+                        Bitte klicken Sie auf <a href="http://www.dorispaas.de/index.php?page=unsubscribe_newsletter&amp;ticket=%UNSUBSCRIBE_TICKET%" target="_blank">diesen Link</a>.
+                        <br />
+                        Ihre Mailadresse wird im Verteiler gel&ouml;scht, und Sie erhalten keine Mails mehr.
+                        </p>
+                    </div>
+                </div>
+            </div>    
+            <br>
+            <br> 
+            <div class="bodyspacer"></div> 
+        </div>

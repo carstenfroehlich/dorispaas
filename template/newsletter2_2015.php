@@ -1,0 +1,190 @@
+        <div class="section no-pad-bot" id="index-banner">    
+            <div class="container">      
+                <br />
+                <br /> 
+                <div class="right">Letzte Aktualisierung: <b><?= date( "j.n.Y", filemtime( __FILE__ ) ) ?></b></div>
+                <h1 class="header center orange-text">DorisPaas-Newsletter</h1>      
+            </div>  
+        </div> 
+        <div class="container">    
+            <div class="section">   
+                <div class="row margintoprow">        
+                    <div class="col s12 m12">
+                        <img src="<?php echo IMG_PATH; ?>dorispaas-de-titelfoto-newsletter-w.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 0px;" /></a><br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <b>Ausgabe 21 (M&auml;rz 2015)</b>
+                        <br />
+                        <br />
+                        ________________________________________________________________________________________________________
+                        <br />
+                        <br />
+                        <br />
+                        
+                        <img src="<?php echo IMG_PATH; ?>newsletter-20-maerzbecher.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 10px;" />
+                        Liebe Leserin, lieber Leser.
+                        <br />
+                        <br />
+                        Endlich! Der Fr&uuml;hling naht und weckt die Vorfreude &ndash; auch wenn es zumindest bei uns im Rheinland 
+                        keinen wirklich kalten Winter gegeben hat. Eine knappe Woche Schnee, aber ansonsten
+                        meist ungem&uuml;tliches Schmuddelwetter. Wir sehr kann man deshalb jetzt die 
+                        Sonne genie&#223;en und sich drau&#223;en bewegen, spazieren gehen, Rad fahren 
+                        und viele andere Aktivit&auml;ten unternehmen. In meinem Garten bl&uuml;hen schon 
+                        Schneegl&ouml;ckchen, Krokusse und sogar ein gro&#223;er Tuff M&auml;rzbecher!
+                        <br />
+                        <br />
+                        Und damit es Ihnen so richtig gut geht, habe ich neben den bisher schon vorhandenen 
+                        Informationen auf <a href="http://www.dorispaas.de" target="_blank">www.dorispaas.de</a> 
+                        wieder viel Neues f&uuml;r Sie bereit gestellt &ndash; schnuppern Sie doch mal hinein.
+                        <br />
+                        <br />
+                        <br />
+                        <hr>
+                        <br />
+                        <a href="http://www.dorispaas.de/index.php?page=paas-heftchen-gluten" target="_blank"><img src="<?php echo IMG_PATH; ?>newsletter-zoeliakie.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 0px;" /></a>
+                        <b>&#149;	<a href="http://www.dorispaas.de/index.php?page=paas-heftchen-gluten" target="_blank">Zwei neue Titel in der &#187;Paas&#039;schen Heftchenreihe&#171;</a></b>
+                        <br />
+                        <br />
+                        <a href="http://www.dorispaas.de/index.php?page=paas-heftchen-gluten" target="_blank">Kurz und klar: Z&ouml;liakie und Gluten-Sensitivit&auml;t</a>
+                        <br />
+                        <a href="http://www.dorispaas.de/index.php?page=paas-heftchen-kinderzoeliakie" target="_blank">Kurz und klar: Mein Kind hat Z&ouml;liakie</a>
+                        <br />
+                        <br />
+                        Den Begriff Z&ouml;liakie hat wahrscheinlich jeder schon einmal geh&ouml;rt. Um 
+                        was genau es sich hier aber handelt, ist f&uuml;r die meisten &ndash; sofern sie 
+                        nicht selbst betroffen sind &ndash; nicht wirklich deutlich. Es hat was mit Gluten 
+                        zu tun, aber was ist das nun wieder? Ist die Z&ouml;liakie eine Gluten-Allergie? 
+                        Eine Nahrungsmittel-Unvertr&auml;glichkeit? Oder etwas ganz anderes? Und was 
+                        bedeutet Gluten-Sensitivit&auml;t? Ist das das Gleiche? Der Titel &#187;<b>Kurz und 
+                        klar: Z&ouml;liakie und Gluten-Sensitivit&auml;t</b>&#171; gibt Auskunft!
+                        <br />
+                        <br />
+                        Und was tun, wenn der Arzt bei Ihrem Kind eine Z&ouml;liakie diagnostiziert hat? 
+                        Oder wenn Sie vermuten, dass es Probleme mit Gluten hat? Auch dann tauchen viele 
+                        Fragen auf: Was ist eigentlich Gluten, und was ist eine Z&ouml;liakie? Ist sie 
+                        heilbar, und gibt es Medikamente? Was darf mein Kind essen, wobei muss es aufpassen? 
+                        Was passiert, wenn es ab und an Gluten erwischt? Welche Ma&#223;nahmen m&uuml;ssen 
+                        zus&auml;tzlich ergriffen werden? Was kann ich tun, damit es meinem Kind wieder 
+                        gut geht? Wie nehme ich Gro&#223;eltern und Freunde, Lehrer und Erzieherinnen mit 
+                        ins Boot? Auf alle Fragen gibt Ihnen das Buch &#187;<b>Kurz und klar: Mein Kind hat 
+                        Z&ouml;liakie</b>&#171; Antworten. 
+                        <br />
+                        <br />
+                        &#149; Der Titel &#187;Kurz und klar: Z&ouml;liakie und Gluten-Sensitivit&auml;t&#171; ist ab sofort auch als ebook erh&auml;ltlich &ndash; <b>bis zum 20.4.2015 sogar zum Sonderpreis</b>!
+                        <br />
+                        &#149; Der Titel &#187;Kurz und klar: Mein Kind hat Z&ouml;liakie&#171; ist in K&uuml;rze ebenfalls als ebook erh&auml;ltlich &ndash; ich informiere Sie auf meiner Website!
+                        <br />
+                        <br />
+                        <hr>
+                        <br />
+                        <a href="http://www.dorispaas.de/index.php?page=duenndarmfehlbesiedelung" target="_blank"><img src="<?php echo IMG_PATH; ?>newsletter-darmschleimhaut.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 10px;" /></a>
+                        <b>&#149;	<a href="http://www.dorispaas.de/index.php?page=duenndarmfehlbesiedelung" target="_blank">D&uuml;nndarmfehlbesiedelung und ihre Behandlung</a></b>
+                        <br />
+                        Wenn Verdauungsbeschwerden wie vor allem Bl&auml;hungen und weiche St&uuml;hle bis 
+                        hin zu Durchf&auml;llen immer wieder und vor allen meist schon nach einer sehr 
+                        kurzen Zeit nach jeder Mahlzeit auftreten, ist es m&ouml;glich, dass eine 
+                        D&uuml;nndarmfehlbesiedelung (DDFB) vorliegen k&ouml;nnte.
+                        <br />
+                        <br />
+                        In Zeiten der &#187;Selbstbehandlung durch das Internet&#171;, in der viele Menschen 
+                        mit entsprechenden Problemen im WorldWideWeb nach m&ouml;glichen Ursachen und einer 
+                        Behandlung suchen, erlebt die DDFB derzeit jedoch einen wahren Boom: In den 
+                        einschl&auml;gigen Foren gibt es kaum einen Beitrag, bei dem nicht irgendwann die 
+                        &#187;Diagnose&#171; D&uuml;nndarmfehlbesiedelung genannt wird.
+                        Aus diesem Grunde ist es wichtig, dass Sie sich bei einem eventuellen Verdacht 
+                        umfassend &uuml;ber die Hintergr&uuml;nde, &uuml;ber die Ursachen und &uuml;ber 
+                        Behandlungsm&ouml;glichkeiten informieren. 
+                        <br />
+                        <br />
+                        <hr>
+                        <br />
+                        <a href="http://www.dorispaas.de/index.php?page=praeparatetest" target="_blank"><img src="<?php echo IMG_PATH; ?>praeparate-newsletter.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 10px;" /></a>
+                        <b>&#149;	<a href="http://www.dorispaas.de/index.php?page=praeparatetest" target="_blank">Test von Pr&auml;paraten zur Unterst&uuml;tzung bei Nahrungsmittel-Unvertr&auml;glichkeiten</a></b>
+                        <br />
+                        Immer wieder tauchen Fragen zu Pr&auml;paraten auf, die helfen k&ouml;nnen oder 
+                        sollen, bei Unvertr&auml;glichkeiten Nahrungsmittel bek&ouml;mmlich(er) zu machen. 
+                        <br />
+                        <br />
+                        Bei Fruktose-Intoleranz ist &#187;Xylosolv&#171; ein beliebtes Mittel, das es 
+                        bisher aufgrund von Lizenzproblemen nur in &Ouml;sterreich gab. <b>Ab sofort gibt es 
+                        Xylosolv jetzt auch in Deutschland</b>. Sie k&ouml;nnen das Pr&auml;parat nun auch in 
+                        Deutschland in Apotheken kaufen oder im Internet bestellen.
+                        <br />
+                        <br />
+                        <hr>
+                        <br />
+                        <a href="http://www.bgm.ganzheitliche-gesundheitsberatung.de" target="_blank"><img src="<?php echo IMG_PATH; ?>newsletter-oberursel.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 0px;" /></a>
+                        <b>&#149;	<a href="http://www.bgm.ganzheitliche-gesundheitsberatung.de" target="_blank">Betriebliches Gesundheitsmanagement/Betriebliche Gesundheitsf&ouml;rderung</a></b>
+                        <br />
+                        Sehr h&auml;ufig kristallisiert sich in Gespr&auml;chen mit meinen Klienten heraus, 
+                        dass Probleme im Arbeitsumfeld zumindest mit als Verursacher von Beschwerden
+                        angesehen werden oder zumindest verst&auml;rkend wirken. Die Gesundheitsf&ouml;rderung 
+                        aber spielt derzeit in den Betrieben leider immer noch eine viel zu kleine Rolle.
+                        Um Sie auch in diesem Bereich kompetent unterst&uuml;tzen und 
+                        beraten zu k&ouml;nnen, habe ich eine Zusatzausbildung zur &#187;Betrieblichen 
+                        Gesundheitsmanagerin&#171; an der Akademie Gesundes Leben in Oberursel abgeschlossen.
+                        <br />
+                        <br />
+                        Wenn Sie sich als Arbeitnehmerin oder Arbeitnehmer in Ihrem Arbeitsumfeld (zu) stark belastet f&uuml;hlen und 
+                        zur Abhilfe die Einf&uuml;hrung gesundheitsf&ouml;rdernder Ma&#223;nahmen 
+                        in Ihrem Betrieb anregen m&ouml;chten, helfe ich Ihnen nun gerne weiter.
+                        
+                        Und wenn Sie sogar als Arbeitgeberin oder Arbeitgeber selber ein kleines, mittleres oder ein gro&#223;es Unternehmen 
+                        leiten und sich f&uuml;r die Implementierung eines umfassenden Betrieblichen 
+                        Gesundheitsmanagements interessieren, 
+                        unterst&uuml;tze ich Sie auch hier und begleite Sie und Ihren Betrieb bei der 
+                        Einf&uuml;hrung eines auf Ihren Bedarf zugeschnittenen Gesundheitsmanagements 
+                        und/oder einzelner Bausteine zur Betrieblichen Gesundheitsf&ouml;rderung. 
+                        Sprechen Sie  mich gerne an.
+                        <br />
+                        <br />
+                        Liebe Leserin, lieber Leser, ich w&uuml;nsche Ihnen diesem Sinne eine wundersch&ouml;ne Fr&uuml;hlingszeit 
+                        und sende Ihnen bis zum n&auml;chsten Newsletter, den Sie in zwei Monaten, also 
+                        etwa Mitte Mai 2015 erhalten, ganz herzliche Gr&uuml;&#223;e aus dem Rheinland 
+                        <br />
+                        Ihre
+                        <br />
+                        Doris Paas
+                        </p>
+                        <i>P.S. Gerne k&ouml;nnen Sie diesen Newsletter auch an Freunde und Bekannte weiterleiten!</i>
+                        <p>
+                        <hr>
+                        <hr>
+                        <a href="http://www.dorispaas.de/index.php?page=termine" target="_blank"><img src="<?php echo IMG_PATH; ?>newsletter-zettel.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 0px;" /></a>
+                        <br />
+                        &#149;	Beachten Sie bitte auch die Hinweise zu den <a href="http://www.dorispaas.de/index.php?page=termine" target="_blank">Terminen</a> 
+                        f&uuml;r die Veranstaltungen, zu denen ich Sie herzlich einlade.  
+                        <br />
+                        &#149;	S&auml;mtliche neuen Beitr&auml;ge finden Sie immer unter dem Button 
+                        &#187;<a href="http://www.dorispaas.de/index.php?page=news" target="_blank">neueste Betr&auml;ge</a>&#171; 
+                        in der Seiten-Navigation.
+                        <br />
+                        &#149;	Den besten &Uuml;berblick &uuml;ber die kompletten Inhalte auf www.DorisPaas.de 
+                        finden Sie in der <a href="http://www.dorispaas.de/sitemap-html" target="_blank">Sitemap</a> 
+                        in der Seiten-Navigation.
+                        <br />
+                        &#149;	www.dorispaas.de &ndash; garantiert <a href="http://www.dorispaas.de/guterrat" target="_blank">werbefreie 
+                        und unabh&auml;ngige Informationen</a>. 
+                        
+                        <br />
+                        <br />
+                        <hr>
+                        <br />
+                        Sie k&ouml;nnen den Erhalt des Newsletters jederzeit abbestellen.
+                        Bitte klicken Sie auf <a href="http://www.dorispaas.de/index.php?page=unsubscribe_newsletter&amp;ticket=%UNSUBSCRIBE_TICKET%" target="_blank">diesen Link</a>.
+                        <br />
+                        Ihre Mailadresse wird im Verteiler gel&ouml;scht, und Sie erhalten keine Mails mehr.
+                        </p>
+                    </div>
+                </div>
+            </div>    
+            <br>
+            <br> 
+            <div class="bodyspacer"></div> 
+        </div>

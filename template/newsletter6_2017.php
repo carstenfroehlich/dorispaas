@@ -1,0 +1,144 @@
+        <div class="section no-pad-bot" id="index-banner">    
+            <div class="container">      
+                <br />
+                <br /> 
+                <div class="right">Letzte Aktualisierung: <b><?= date( "j.n.Y", filemtime( __FILE__ ) ) ?></b></div>
+                <h1 class="header center orange-text">DorisPaas-Newsletter</h1>      
+            </div>  
+        </div> 
+        <div class="container">    
+            <div class="section">   
+                <div class="row margintoprow">        
+                    <div class="col s12 m12">
+                        <hr />
+                        <h5>Ausgabe 37 (November 2017)</h5>
+                        <hr />
+                        <br />
+                        
+                        
+                        <a href="http://www.dorispaas.de/" target="_blank"><img src="<?php echo IMG_PATH; ?>nl-2017-06-titel.png" alt="Titelbild" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 20px;" /></a>
+                        Liebe Leserin, lieber Leser.
+                        <br />
+                        <br />
+                        Dieses Mal kommt der Newsletter ein wenig fr&uuml;her und nicht erst Mitte November. 
+                        Dies hat folgenden Grund: voraussichtlich am 9. November stimmt die EU-Kommission 
+                        dar&uuml;ber ab, ob und ggf. f&uuml;r welche Zeitspanne die Zulassung f&uuml;r 
+                        das Unkrautvernichtungsmittel Glyphosat verl&auml;ngert wird.
+                        <br />
+                        <br />
+                        Mit diesem Newsletter m&ouml;chte ich Sie zum einen &uuml;ber die generelle Brisanz 
+                        der Verwendung dieses Mittels der Firma Monsanto informieren. Zum anderen versuche 
+                        ich aber auch Ihnen aufzuzeigen, warum dieses Mittel u.U. gerade f&uuml;r Menschen 
+                        mit Nahrungsmittel-Unvertr&auml;glichkeiten und einer gesch&auml;digten Darmflora 
+                        zum Problem werden k&ouml;nnte.
+                        <br />
+                        <br />
+                        Unter diesem Absatz finden Sie einen Link, der zu einer Website des BUND 
+                        f&uuml;hrt, auf der Sie eine Petition gegen die Verl&auml;ngerung der Zulassungserlaubnis 
+                        f&uuml;r Glyphosat unterzeichnen k&ouml;nnen. Da eine solche Stimmabgabe eine der 
+                        wenigen M&ouml;glichkeiten ist, unserer Bundesregierung zu signalisieren, wie 
+                        viele Menschen keine Verl&auml;ngerung der Zulassung w&uuml;nschen, bitte ich Sie 
+                        ganz herzlich darum, Ihre eigene Stimme abzugeben und zus&auml;tzlich diesen Link 
+                        an m&ouml;glichst viele Freunde und Bekannte weiterzuleiten. Je mehr Menschen 
+                        ihren Willen in diesem Sinne kundtun, desto gr&ouml;&#223;er wird die Chance, 
+                        dass auch die schwerf&auml;lligste Regierung dies hoffentlich endlich zur Kenntnis
+                        nimmt und in der EU-Kommission zumindest f&uuml;r Deutschland gegen ein Mittel 
+                        stimmt, dessen Unbedenklichkeit mitnichten zweifelsfrei bewiesen ist.
+                        <br />
+                        <br />
+                        <a href="https://aktion.bund.net/europ%C3%A4ische-b%C3%BCrgerinitiative-gegen-glyphosat" target="_blank">https://aktion.bund.net/europ%C3%A4ische-b%C3%BCrgerinitiative-gegen-glyphosat</a>
+                        <br />
+                        <br />
+                        <br />
+                        <hr>
+                        <br />
+                        <a href="http://www.dorispaas.de/index.php?page=glyphosat" target="_blank"><img src="<?php echo IMG_PATH; ?>nl-2017-06-unkraut.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 0px;" /></a>
+                        <b>&#149;	<a href="http://www.dorispaas.de/index.php?page=glyphosat" target="_blank">Glyphosat und unser Mikrobiom</a></b>
+                        <br />
+                        Im Rahmen eines umfassenden Beitrags auf meiner Website &uuml;ber Glyphosat betrachte ich diesen 
+                        Unkrautvernichter aus verschiedenen Blickwinkeln und u.a. auch in Bezug auf unsere 
+                        Darmflora. In und auf uns leben mit unserem Mikrobiom in unserem Darm und den 
+                        Bakterien, die unsere Haut, unsere Lunge und unseren Urogenitaltrakt 
+                        besiedeln, zehnmal mehr Mikroorganismen als wir selber K&ouml;rperzellen haben. 
+                        Die meisten dieser Bakterien sind f&ouml;rderlich f&uuml;r unsere Gesundheit, 
+                        und wir k&ouml;nnten ohne sie gar nicht leben. Die Bakterien der Darmflora 
+                        beispielsweise st&auml;rken nicht nur unser Immunsystem, sondern helfen uns bei 
+                        der Nahrungsverwertung, unterst&uuml;tzen unsere Vitaminversorgung und haben 
+                        zahlreiche weitere, wichtige Aufgaben. Auch diese Bakterien sind Lebewesen &ndash; 
+                        zwar klein, aber eben unverzichtbar f&uuml;r uns. Und wie alle Lebewesen haben 
+                        sie einen Stoffwechsel. Ob und ggf. in welcher Weise dieser Stoffwechsel durch 
+                        die Kontamination mit einem Unkrautvernichter wie Glyphosat beeintr&auml;chtigt 
+                        werden kann, ist bisher nur in sehr wenigen Studien bedacht worden. ... 
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <hr>
+                        <br />
+                        Liebe Leserinnen und Leser, auch wenn es derzeit noch eher herbstlich ist, sind doch die meisten 
+                        Bl&auml;tter von den B&auml;umen geweht &ndash; nicht zuletzt durch die starken 
+                        St&uuml;rme der vergangenen Wochen. Ob solche Wetterph&auml;nomene durch die 
+                        Erderw&auml;rmung und die damit verbundene Klimaver&auml;nderung hervorgerufen oder 
+                        zumindest beg&uuml;nstigt wurden, ist eine von vielen anderen Fragen, &uuml;ber 
+                        die ich mir Gedanken mache. Aber das geh&ouml;rt heute nicht in diesen Newsletter.
+                        Trotz allem positiv in die Zukunft schauend w&uuml;nsche ich Ihnen eine besinnliche 
+                        Vorweihnachtszeit und hoffe, dass Sie sich in den kommenden Wochen nicht von 
+                        Stress und Hektik erfassen lassen, sondern es sich zumindest w&auml;hrend der 
+                        Feiertage so richtig gut gehen lassen. Ich w&uuml;nsche Ihnen eine gute Zeit!
+                        <br />
+                        <br />
+                        Und hier noch ein Hinweis: in den kommenden Wochen werden meine Website und die 
+                        DorisPaas.de &ndash; Lebensmittel-Datenbank mobilf&auml;hig gemacht, damit Sie die 
+                        Informationen auch von Ihrem Handy aus aufrufen k&ouml;nnen. Dies bedeutet, 
+                        dass teils aufw&auml;ndige &Auml;nderungsarbeiten durchgef&uuml;hrt werden m&uuml;ssen. 
+                        Sollten Sie beim Lesen und St&ouml;bern Probleme haben, bitte ich Sie, die 
+                        Seitenaufrufe zu einem sp&auml;teren Zeitpunkt erneut zu versuchen. Wir sind 
+                        bem&uuml;ht, die Einschr&auml;nkungen kurzzeitig wie m&ouml;glich zu halten. 
+                        <br />
+                        <br />
+                        Bis zum n&auml;chsten Newsletter, den Sie in zwei Monaten, also 
+                        etwa Mitte Januar 2018 erhalten, sende ich Ihnen ganz herzliche Gr&uuml;&#223;e aus dem Rheinland 
+                        <br />
+                        Ihre
+                        <br />
+                        <img src="<?php echo IMG_PATH; ?>nl-unterschrift-dopa.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 10px; padding-bottom: 0px;" />
+                        </p>
+                        <br />
+                        <br />
+                        <br />
+                        <i>P.S. Gerne k&ouml;nnen Sie diesen Newsletter auch an Freunde und Bekannte weiterleiten!</i>
+                        <p>
+                        <hr>
+                        <hr>
+                        <a href="http://www.dorispaas.de/index.php?page=termine" target="_blank"><img src="<?php echo IMG_PATH; ?>newsletter-zettel.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 0px;" /></a>
+                        <br />
+                        &#149;	Beachten Sie bitte auch die Hinweise zu den <a href="http://www.dorispaas.de/index.php?page=termine" target="_blank">Terminen</a> 
+                        f&uuml;r die Veranstaltungen, zu denen ich Sie herzlich einlade.  
+                        <br />
+                        &#149;	S&auml;mtliche neuen Beitr&auml;ge finden Sie immer unter dem Button 
+                        &#187;<a href="http://www.dorispaas.de/index.php?page=news" target="_blank">neueste Betr&auml;ge</a>&#171; 
+                        in der Seiten-Navigation.
+                        <br />
+                        &#149;	Den besten &Uuml;berblick &uuml;ber die kompletten Inhalte auf www.DorisPaas.de 
+                        finden Sie in der <a href="http://www.dorispaas.de/sitemap-html" target="_blank">Sitemap</a> 
+                        in der Seiten-Navigation.
+                        <br />
+                        &#149;	www.dorispaas.de &ndash; garantiert <a href="http://www.dorispaas.de/guterrat" target="_blank">werbefreie 
+                        und unabh&auml;ngige Informationen</a>. 
+                        
+                        <br />
+                        <br />
+                        <hr>
+                        <br />
+                        Sie k&ouml;nnen den Erhalt des Newsletters jederzeit abbestellen.
+                        Bitte klicken Sie auf <a href="http://www.dorispaas.de/index.php?page=unsubscribe_newsletter&amp;ticket=%UNSUBSCRIBE_TICKET%" target="_blank">diesen Link</a>.
+                        <br />
+                        Ihre Mailadresse wird im Verteiler gel&ouml;scht, und Sie erhalten keine Mails mehr.
+                        </p>
+                    </div>
+                </div>
+            </div>    
+            <br>
+            <br> 
+            <div class="bodyspacer"></div> 
+        </div>

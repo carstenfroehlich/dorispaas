@@ -1,0 +1,154 @@
+        <div class="section no-pad-bot" id="index-banner">    
+            <div class="container">      
+                <br />
+                <br /> 
+                <div class="right">Letzte Aktualisierung: <b><?= date( "j.n.Y", filemtime( __FILE__ ) ) ?></b></div>
+                <h1 class="header center orange-text">DorisPaas-Newsletter</h1>      
+            </div>  
+        </div> 
+        <div class="container">    
+            <div class="section">   
+                <div class="row margintoprow">        
+                    <div class="col s12 m12">
+                        <img src="<?php echo IMG_PATH; ?>dorispaas-de-titelfoto-newsletter-w.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 0px;" /></a><br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <b>Ausgabe 28 (Mai 2016)</b>
+                        <br />
+                        <br />
+                        _________________________________________________________________________
+                        <br />
+                        <br />
+                        <br />
+                        
+                        Liebe Leserin, lieber Leser.
+                        <br />
+                        <br />
+                        Vielleicht wundern Sie sich, dass Sie diesen Newsletter bereits jetzt erhalten und nicht 
+                        &ndash; wie gewohnt &ndash; erst Mitte des Monats. Es gibt aber einen ganz aktuellen 
+                        Grund, den Mai-Newsletter schon heute an Sie zu versenden: Ich m&ouml;chte Ihnen 
+                        n&auml;mlich nicht nur mein neues Buch vorstellen, sondern Ihnen auch die Gelegenheit 
+                        zu geben, das Buch als eBook bis zum 9. Mai zum Subskriptionspreis erwerben zu k&ouml;nnen. Aber unabh&auml;ngig 
+                        davon, ob Sie sich f&uuml;r die digitale Version oder f&uuml;r die Druckausgabe 
+                        entscheiden, schauen Sie doch einmal, was das Buch 
+                        &#187;<a href="http://www.dorispaas.de/book-ddfb" target="_blank"><b>D&uuml;nndarmfehlbesiedelung 
+                        &ndash; erkennen, verstehen, erfolgreich behandeln</b></a>&#171; f&uuml;r Sie bereith&auml;lt:
+                        <br />
+                        <br />
+                        <a href="http://www.dorispaas.de/book-ddfb" target="_blank"><img src="<?php echo IMG_PATH; ?>nl-2016-03-titel.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 10px;" /></a>
+                        Seit Jahren stellen immer mehr Menschen &ndash; vor allem von Nahrungsmittel-Unvertr&auml;glichkeiten Betroffene &ndash;
+                        fest, dass sie trotz konsequenter Di&auml;t ihre Beschwerden nur sehr schwer in 
+                        den Griff bekommen. Auch suchen h&auml;ufig Klienten bei mir Rat, die von ihren 
+                        &Auml;rzten mit der Diagnose &#187;Reizdarm-Syndrom&#171; und dem Ratschlag, ihre 
+                        Stressbelastung zu senken, nach Hause geschickt wurden. Allen gemein ist, dass die 
+                        bisherigen Strategien nicht zum gew&uuml;nschten Erfolg gef&uuml;hrt hatten.
+                        <br />
+                        <br />
+                        In diesen F&auml;llen ist es sehr wahrscheinlich, dass ihr D&uuml;nndarm mit 
+                        Dickdarmbakterien besiedelt ist. Sind Bakterien, die im Dickdarm ihre sinnvollen 
+                        Aufgaben haben, in den D&uuml;nndarm aufgestiegen, k&ouml;nnen diese an sich harmlosen 
+                        &#187;Mitbewohner&#171; dem Menschen das Leben ganz sch&ouml;n schwer machen. Vor allem ein 
+                        stark aufgebl&auml;hter Bauch, der sich &ndash; ganz unabh&auml;ngig von der Art 
+                        der verzehrten Lebensmittel &ndash; bereits kurz nach dem Fr&uuml;hst&uuml;ck zeigt 
+                        und erst in der Folgenacht langsam wieder flach wird, dar&uuml;ber hinaus V&ouml;llegf&uuml;hl, 
+                        &Uuml;belkeit, Bl&auml;hungen, Durchfall und/oder Verstopfung und viele andere Beschwerden mehr, sind die Leitsymptome der sogenannten 
+                        &#187;D&uuml;nndarmfehlbesiedelung&#171;.
+                        <br />
+                        <br />
+                        Dass die D&uuml;nndarmfehlbesiedelung oft in enger Beziehung mit 
+                        Nahrungsmittel-Unvertr&auml;glichkeiten und auch mit dem Reizdarm-Syndrom steht, 
+                        ist zwar mittlerweile nachgewiesen, aber ungl&uuml;cklicherweise noch nicht im allgemeinen medizinischen 
+                        Bewusstsein verankert. Leider ist die D&uuml;nndarmfehlbesiedelung wahrscheinlich 
+                        eine der derzeit am h&auml;ufigsten verkannte und auch untersch&auml;tzte 
+                        Erkrankung des Verdauungssystems, eben weil die oftmals qu&auml;lenden 
+                        Verdauungsbeschwerden kaum mit dem Verzehr bestimmter Lebensmittel in Verbindung 
+                        gebracht werden k&ouml;nnen und ist sie so schwer &#187;zu packen&#171; ist.
+                        <br />
+                        <br />
+                        Aus diesem Grunde ist mein neuestes Buch 
+                        &#187;<a href="http://www.dorispaas.de/book-ddfb" target="_blank"><b>D&uuml;nndarmfehlbesiedelung 
+                        &ndash; erkennen, verstehen, erfolgreich behandeln</b></a>&#171; entstanden, das im 
+                        April erschienen ist.
+                        Sie lernen hier alle m&ouml;glichen Ursachen, Diagnosemethoden und 
+                        Behandlungsalternativen dieser Erkrankung kennen und werden das Zusammenspiel der zahlreichen erforderlichen 
+                        Therapiekomponenten verstehen. Wenn man einmal die Zusammenh&auml;nge erkannt und 
+                        verstanden hat, wie sich die langanhaltenden und belastenden Beschwerden begr&uuml;nden, 
+                        ist es m&ouml;glich, eine D&uuml;nndarmfehlbesiedelung dauerhaft 
+                        zu beseitigen.
+                        <br />
+                        <br />
+                        Vor einer erfolgreichen Behandlung steht jedoch immer eine korrekte Diagnose &ndash; 
+                        und diese sollte zwar immer alle erforderlichen Ma&#223;nahmen umfassen, aber 
+                        belastende und oft auch &uuml;berfl&uuml;ssige und vielleicht  sogar kostentr&auml;chtige 
+                        Untersuchungen vermeiden. Eine zielf&uuml;hrende Therapie erfolgt dann in mehreren 
+                        Phasen, wobei verschiedene Mittel und M&ouml;glichkeiten zur Verf&uuml;gung stehen. 
+                        Auch die gleichzeitig erforderlichen behandlungsbegleitenden Ma&#223;nahmen und 
+                        allgemeinen Regeln zur Gesunderhaltung der Darmflora werden thematisiert. Nur die 
+                        konsequente Einhaltung aller notwendigen Schritte kann zu einem dauerhaften Erfolg 
+                        f&uuml;hren und die gr&ouml;&#223;tm&ouml;gliche Sicherheit vor R&uuml;ckf&auml;llen 
+                        gew&auml;hrleisten.
+                        <br />
+                        <br />
+                        Liebe Leserin, lieber Leser, 
+                        als selbst Betroffene k&ouml;nnen Sie nach der Lekt&uuml;re dieses ausf&uuml;hrlichen Buches mit Ihren 
+                        &Auml;rzten und Beratern auf Augenh&ouml;he &uuml;ber Ihre Erkrankung
+                        sprechen und entscheiden, welche der Behandlungsalternativen 
+                        f&uuml;r Sie die geeignetste ist. Vor allem aber k&ouml;nnen Sie durch Ihr eigenes 
+                        Verhalten einen dauerhaften Behandlungserfolg sicherstellen. Aber auch, wenn Sie 
+                        selbst als Arzt, Heilpraktiker oder Berater arbeiten, kann Ihnen dieses Buch helfen, das komplexe 
+                        Thema in all seinen Facetten zu verstehen und Ihre Patienen umfassend beraten zu k&ouml;nnen.
+                        <br />
+                        <br />
+                        Ich w&uuml;nsche Ihnen eine gute Zeit und sende Ihnen bis zum n&auml;chsten 
+                        Newsletter, den Sie in gut zwei Monaten, also etwa Mitte Juli 2016 erhalten, ganz 
+                        herzliche Gr&uuml;&#223;e aus dem Rheinland 
+                        <br />
+                        Ihre
+                        <br />
+                        <img src="<?php echo IMG_PATH; ?>nl-unterschrift-dopa.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 10px; padding-bottom: 0px;" />
+                        </p>
+                        <br />
+                        <br />
+                        <br />
+                        <i>P.S. Gerne k&ouml;nnen Sie diesen Newsletter auch an Freunde und Bekannte weiterleiten!</i>
+                        <p>
+                        <hr>
+                        <hr>
+                        <a href="http://www.dorispaas.de/index.php?page=termine" target="_blank"><img src="<?php echo IMG_PATH; ?>newsletter-zettel.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 0px;" /></a>
+                        <br />
+                        &#149;	Beachten Sie bitte auch die Hinweise zu den <a href="http://www.dorispaas.de/index.php?page=termine" target="_blank">Terminen</a> 
+                        f&uuml;r die Veranstaltungen, zu denen ich Sie herzlich einlade.  
+                        <br />
+                        &#149;	S&auml;mtliche neuen Beitr&auml;ge finden Sie immer unter dem Button 
+                        &#187;<a href="http://www.dorispaas.de/index.php?page=news" target="_blank">neueste Betr&auml;ge</a>&#171; 
+                        in der Seiten-Navigation.
+                        <br />
+                        &#149;	Den besten &Uuml;berblick &uuml;ber die kompletten Inhalte auf www.DorisPaas.de 
+                        finden Sie in der <a href="http://www.dorispaas.de/sitemap-html" target="_blank">Sitemap</a> 
+                        in der Seiten-Navigation.
+                        <br />
+                        &#149;	www.dorispaas.de &ndash; garantiert <a href="http://www.dorispaas.de/guterrat" target="_blank">werbefreie 
+                        und unabh&auml;ngige Informationen</a>. 
+                        
+                        <br />
+                        <br />
+                        <hr>
+                        <br />
+                        Sie k&ouml;nnen den Erhalt des Newsletters jederzeit abbestellen.
+                        Bitte klicken Sie auf <a href="http://www.dorispaas.de/index.php?page=unsubscribe_newsletter&amp;ticket=%UNSUBSCRIBE_TICKET%" target="_blank">diesen Link</a>.
+                        <br />
+                        Ihre Mailadresse wird im Verteiler gel&ouml;scht, und Sie erhalten keine Mails mehr.
+                        </p>
+                    </div>
+                </div>
+            </div>    
+            <br>
+            <br> 
+            <div class="bodyspacer"></div> 
+        </div>

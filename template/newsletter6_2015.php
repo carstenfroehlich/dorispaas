@@ -1,0 +1,171 @@
+        <div class="section no-pad-bot" id="index-banner">    
+            <div class="container">      
+                <br />
+                <br /> 
+                <div class="right">Letzte Aktualisierung: <b><?= date( "j.n.Y", filemtime( __FILE__ ) ) ?></b></div>
+                <h1 class="header center orange-text">DorisPaas-Newsletter</h1>      
+            </div>  
+        </div> 
+        <div class="container">    
+            <div class="section">   
+                <div class="row margintoprow">        
+                    <div class="col s12 m12">
+                        <img src="<?php echo IMG_PATH; ?>dorispaas-de-titelfoto-newsletter-w.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 0px;" /></a><br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <b>Ausgabe 25 (November 2015)</b>
+                        <br />
+                        <br />
+                        _________________________________________________________________________
+                        <br />
+                        <br />
+                        <br />
+                        
+                        <a href="http://www.dorispaas.de/" target="_blank"><img src="<?php echo IMG_PATH; ?>nl-2015-06-titel.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 10px;" /></a>
+                        Liebe Leserin, lieber Leser.
+                        <br />
+                        <br />
+                        Schon wieder neigt sich ein Jahr dem Ende zu &ndash; leider unter dem Eindruck von 
+                        erschreckenden Ereignissen. Es gibt Menschen, die eine Lebensart, die von ihrer 
+                        eigenen abweicht, nicht tolerieren wollen. Mit roher Gewalt versuchen sie, den 
+                        &#187;Ungl&auml;ubigen&#171; ihre in ihren Augen einzig wahre Auffassung auszuzwingen.
+                        Nicht nur die Menschen, die deshalb aus ihrem Heimatland fliehen und bei 
+                        uns Hilfe und Sicherheit suchen, auch wir alle sind im Visier dieser Terroristen. 
+                        Ich w&uuml;nsche mir von unseren Politikern, aber auch von uns allen,
+                        Mut f&uuml;r offene T&uuml;ren und Herzen. Mut, Terror entschieden entgegenzutreten und 
+                        offen klarzustellen, dass wir uns nicht erpressen lassen. Offenheit f&uuml;r ein 
+                        friedliches Miteinander mit allen Menschen &ndash; unabh&auml;ngig von deren 
+                        Religion. Toleranz gegen&uuml;ber Meinungen, die von der eigenen abweicht. Und 
+                        Empathie f&uuml;r Menschen, denen es nicht so gut geht wie uns selbst. Jeder kleine 
+                        Schritt in diese Richtung hilft, dass wir alle gemeinsam den Terror besiegen k&ouml;nnen.
+                        <br />
+                        <br />
+                        <br />
+                        <hr>
+                        <br />
+                        <a href="http://www.dorispaas.de/index.php?page=arztsuche" target="_blank"><img src="<?php echo IMG_PATH; ?>nl-2015-06-stethoskop.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 0px;" /></a>
+                        <b>&#149;	<a href="http://www.dorispaas.de/index.php?page=arztsuche" target="_blank">Erfolgreiche Arztsuche</a></b>
+                        <br />
+                        <br />
+                        Immer wieder wird die Frage gestellt &#187;Wie finde ich einen qualifizierten Arzt f&uuml;r meine Probleme?&#171;
+                        Es kann tats&auml;chlich gerade bei unklaren Bauchbeschwerden schwierig sein, einen 
+                        geeigneten Arzt zu finden. Viele meiner Klienten haben eine regelrechte Odyssee 
+                        hinter sich und mehrere &Auml;rzte konsultiert. Sie haben zahlreiche Untersuchungen &uuml;ber 
+                        sich ergehen lassen, und trotzdem ist kein fassbares Ergebnis gefunden oder 
+                        eine dauerhafte Besserung der Beschwerden erreicht worden. In der
+                        neuen Rubrik &#187;Erfolgreiche Arztsuche&#171; habe ich einige Tipps zu diesem 
+                        Thema f&uuml;r Sie zusammengestellt.
+                        <br />
+                        <br />
+                        Beispielsweise finden Sie hier Antworten auf die Fragen 
+                        &#187;<a href="http://www.dorispaas.de/index.php?page=arztsuche" target="_blank">Wie finde ich einen qualifizierten Arzt?</a>&#171; 
+                        oder auch &#187;<a href="http://www.dorispaas.de/index.php?page=arztqualifikation" target="_blank">Wie erkenne ich die Qualifikation eines Arztes?</a>&#171;.
+                        <br />
+                        Noch einmal aktualisiert wurde zu diesem Thema auch der Beitrag &#187;&#187;<a href="http://www.dorispaas.de/index.php?page=selbsttests" target="_blank">Selbsttests
+                        bei Nahrungsmittel-Unvertr&auml;glichkeiten &ndash; wann sind sie sinnvoll?</a>&#171;. 
+                        <br />
+                        <br />
+                        <br />
+                        <hr>
+                        <br />
+                        <a href="http://www.ganzheitliche-gesundheitsberatung.de/" target="_blank"><img src="<?php echo IMG_PATH; ?>nl-2015-06-praxis.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 0px;" /></a>
+                        <b>&#149;	<a href="http://www.ganzheitliche-gesundheitsberatung.de/" target="_blank">Beratung</a></b>
+                        <br />
+                        <br />
+                        Gerne biete ich Ihnen auch eine Beratung an &ndash; nicht als &#187;Kontrastprogramm&#171;,
+                        sondern als Erg&auml;nzung zu den Besuchen bei Ihrem Arzt. Wenn Sie unklare Verdauungsprobleme 
+                        oder Fragen zu bereits erkannten Nahrungsmittel-Unvertr&auml;glichkeiten und/oder 
+                        -Allergien haben, wenn Sie sich unsicher sind, ob oder auch welche Tests zur Diagnose 
+                        einer Intoleranz die richtigen sind, oder auch wenn Sie bereits im Vorfeld einer 
+                        geplanten Untersuchung Fehler vermeiden und sich versichern wollen, wie ein Test 
+                        korrekt durchgef&uuml;hrt wird, helfe ich Ihnen gerne weiter. Auch wenn Sie bereits 
+                        eine Diagnose erhalten haben und nun eine Anleitung f&uuml;r eine eventuell erforderliche 
+                        Di&auml;t ben&ouml;tigen, stehe ich Ihnen gerne zur Verf&uuml;gung. Sie haben die 
+                        M&ouml;glichkeit, direkt in meine Troisdorfer Praxis zu kommen, oder sich auch 
+                        telefonisch beraten zu lassen. Rufen Sie mich einfach an.
+                        <br />
+                        <br />
+                        <br />
+                        <hr>
+                        <br />
+                        <a href="http://www.dorispaas.de/index.php?page=news" target="_blank"><img src="<?php echo IMG_PATH; ?>nl-2015-06-neu.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 10px;" /></a>
+                        <b>&#149;	<a href="http://www.dorispaas.de/index.php?page=news" target="_blank">Aktualisierungen</a></b>
+                        <br />
+                        <br />
+                        Neben den neuen Seiten werden auch die bestehenden immer wieder auf ihre Aktualit&auml;t 
+                        &uuml;berpr&uuml;ft, ggf. aktualisiert und erg&auml;nzt. So stelle ich sicher, 
+                        dass Sie immer aktuelle und korrekte Informationen auf meiner Website finden.
+                        Auf der Seite &#187;<a href="http://www.dorispaas.de/index.php?page=news" target="_blank">News</a>&#171;
+                        finden Sie mit dem entsprechenden Aktualisierungshinweis auch alle Seiten, die 
+                        in der letzten Zeit ver&auml;ndert wurden. Es lohnt sich 
+                        immer, ab und an auch auf die Links von Ihnen bereits bekannten Seiten zu klicken. 
+                        Manchmal sind die Sachverhalte &#187;nur&#171; erg&auml;nzt (wie z.B. die Reiseberichte 
+                        oder die Pr&auml;paratetests), aber manchmal gibt es auch ganz neue wissenschaftliche 
+                        Erkenntnisse, die ich dann auf diesen Seiten aktualisiere.
+                        <br />
+                        <br />
+                        <br />
+                        <hr>
+                        <br />
+                        Liebe Leserin, lieber Leser, auch wenn ich diesen Newsletter mit nachdenklich machenden 
+                        Gedanken begonnen habe, m&ouml;chte ich ihn mit positiven Gedanken beenden.
+                        Ich w&uuml;nsche Ihnen insbesondere f&uuml;r die kommenden Feiertage eine gute Zeit. 
+                        Treffen Sie sich doch einmal mit Freunden, die eine andere Nationalit&auml;t oder 
+                        eine andere Religion haben und unterhalten sich &uuml;ber unterschiedliche Sitten 
+                        und Gebr&auml;uche zu den verschiedenen Festen. Vielleicht werden Sie sogar in eine 
+                        Moschee oder eine Synagoge eingeladen und k&ouml;nnen erfahren, wie interessant 
+                        es ist, mehr &uuml;ber &#187;fremde&#171; Kulturen kennen zu lernen. 
+                        In der Hoffnung auf eine Zukunft in Frieden sende ich Ihnen bis zum n&auml;chsten 
+                        Newsletter, den Sie in zwei Monaten, also etwa Mitte Januar 2016 erhalten, ganz 
+                        herzliche Gr&uuml;&#223;e aus dem Rheinland 
+                        <br />
+                        Ihre
+                        <br />
+                        <img src="<?php echo IMG_PATH; ?>nl-unterschrift-dopa.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 10px; padding-bottom: 0px;" />
+                        </p>
+                        <br />
+                        <br />
+                        <br />
+                        <i>P.S. Gerne k&ouml;nnen Sie diesen Newsletter auch an Freunde und Bekannte weiterleiten!</i>
+                        <p>
+                        <br />
+                        <hr>
+                        <hr>
+                        <a href="http://www.dorispaas.de/index.php?page=termine" target="_blank"><img src="<?php echo IMG_PATH; ?>newsletter-zettel.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 0px;" /></a>
+                        <br />
+                        &#149;	Beachten Sie bitte auch die Hinweise zu den <a href="http://www.dorispaas.de/index.php?page=termine" target="_blank">Terminen</a> 
+                        f&uuml;r die Veranstaltungen, zu denen ich Sie herzlich einlade.  
+                        <br />
+                        &#149;	S&auml;mtliche neuen Beitr&auml;ge finden Sie immer unter dem Button 
+                        &#187;<a href="http://www.dorispaas.de/index.php?page=news" target="_blank">neueste Betr&auml;ge</a>&#171; 
+                        in der Seiten-Navigation.
+                        <br />
+                        &#149;	Den besten &Uuml;berblick &uuml;ber die kompletten Inhalte auf www.DorisPaas.de 
+                        finden Sie in der <a href="http://www.dorispaas.de/sitemap-html" target="_blank">Sitemap</a> 
+                        in der Seiten-Navigation.
+                        <br />
+                        &#149;	www.dorispaas.de &ndash; garantiert <a href="http://www.dorispaas.de/guterrat" target="_blank">werbefreie 
+                        und unabh&auml;ngige Informationen</a>. 
+                        
+                        <br />
+                        <br />
+                        <hr>
+                        <br />
+                        Sie k&ouml;nnen den Erhalt des Newsletters jederzeit abbestellen.
+                        Bitte klicken Sie auf <a href="http://www.dorispaas.de/index.php?page=unsubscribe_newsletter&amp;ticket=%UNSUBSCRIBE_TICKET%" target="_blank">diesen Link</a>.
+                        <br />
+                        Ihre Mailadresse wird im Verteiler gel&ouml;scht, und Sie erhalten keine Mails mehr.
+                        </p>
+                    </div>
+                </div>
+            </div>    
+            <br>
+            <br> 
+            <div class="bodyspacer"></div> 
+        </div>

@@ -1,0 +1,147 @@
+        <div class="section no-pad-bot" id="index-banner">    
+            <div class="container">      
+                <br />
+                <br /> 
+                <div class="right">Letzte Aktualisierung: <b><?= date( "j.n.Y", filemtime( __FILE__ ) ) ?></b></div>
+                <h1 class="header center orange-text">DorisPaas-Newsletter</h1>      
+            </div>  
+        </div> 
+        <div class="container">    
+            <div class="section">   
+                <div class="row margintoprow">        
+                    <div class="col s12 m12">
+                        <img src="<?php echo IMG_PATH; ?>dorispaas-de-titelfoto-newsletter.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 0px;" /></a><br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <b>Ausgabe 3/2014 (Mai 2014)</b>
+                        <br />
+                        <br />
+                        _______________________________________________________________________________________________
+                        <br />
+                        <br />
+                        <br />
+                        
+                        Liebe Leserin, lieber Leser.
+                        <p>
+                        Endlich: Zwar hatten wir einen herrlichen April, aber dann schien es fast so, als 
+                        w&uuml;rde gar keine Fr&uuml;hling mehr kommen wollen. Doch nun hat auch das 
+                        sch&ouml;ne Wetter bei uns Einzug gehalten, und die Erwartung auf einen traumhaften 
+                        Sommer w&auml;chst. Einer unbeschwerten Urlaubszeit steht dann hoffentlich nichts 
+                        mehr im Wege &#150; sei es auf &#187;Balkonien&#171; oder in einem interessanten Reiseland.
+                        <br />
+                        <br />
+                        <hr>
+                        <br />
+                        <b>&#149;	<a href="http://www.dorispaas.de/index.php?page=ganz-reisedurchfall" target="_blank">Reisedurchfall (Reisediarrhoe)</a></b>
+                        <br />
+                        Damit Ihr Urlaub auch w&auml;hrend einer Reise in ein Land mit einem hohen Risiko 
+                        in Bezug auf Durchfallerkrankungen m&ouml;glichst frei von unliebsamen &Uuml;berraschungen 
+                        bleibt, habe ich Ihnen einen interessanten Beitrag zu diesem Thema bereit gestellt. 
+                        Sie finden hier alles &uuml;ber Vorbeugung, Behandlung, den richtigen Zeitpunkt, 
+                        einen Arzt hinzuzuziehen und vieles weitere mehr. 
+                        <br />
+                        <br />
+                        <hr>
+                        <br />
+                        <b>&#149;	<a href="http://www.dorispaas.de/index.php?page=ganz-gesund" target="_blank">Ganzheitliche Gesundheit</a></b>
+                        <br />
+                        Welche Zeit bietet eine bessere Gelegenheit, sich Gedanken &uuml;ber eine ges&uuml;ndere 
+                        Lebensweise zu machen, als die Urlaubszeit? Aus diesem Grund m&ouml;chte ich Ihnen 
+                        noch einmal alle Beitr&auml;ge unter dem Men&uuml;punkt &#187;<b>Ganzheitliche Gesundheit</b>&#171;
+                        ans Herz legen. Vielleicht finden Sie Zeit und Mu&#223;e, hier einmal zu st&ouml;bern 
+                        und den einen oder anderen Tipp f&uuml;r sich umzusetzen.
+                        <br />
+                        <br />
+                        <hr>
+                        <br />
+                        <b>&#149;	<a href="http://www.ganzheitliche-gesundheitsberatung.de/" target="_blank">Individuelle Beratung</a></b>
+                        <br />
+                        Und wenn Sie trotz all der Informationen, die Sie auf <a href="http://www.dorispaas.de/" target="_blank">www.DorisPaas.de</a> finden,
+                        doch anhaltende Probleme mit Ihrer Verdauung haben, biete ich Ihnen gerne eine 
+                        pers&ouml;nliche Beratung an. Hier besprechen wir Ihre Probleme, und Sie 
+                        erhalten ganz individuelle und f&uuml;r Sie ma&#223;geschneiderte Tipps und Hilfen, 
+                        damit es Ihnen rasch wieder besser geht. Die Beratungen k&ouml;nnen in meiner Troisdorfer 
+                        Praxis, aber auch telefonisch durchgef&uuml;hrt werden, wenn Sie weiter entfernt wohnen. 
+                        Sie k&ouml;nnen Sie mich per e-mail (<a href="mailto:info@dorispaas.de" class="link">info@dorispaas.de</a>) 
+                        oder auch telefonisch unter 02241/97 53 26 erreichen &#150; ich freue mich auf Sie!
+                        <br />
+                        <br />
+                        <hr>
+                        <br />
+                        <img src="<?php echo IMG_PATH; ?>lebensmitteldatenbank.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 0px;" /></a>
+                        <br />
+                        <b>&#149;	<a href="http://www.dorispaas.de/index.php?page=lebensmittel-datenbank-info" target="_blank">DorisPaas.de &#150; Lebensmittel-Datenbank</a></b>
+                        <br />
+                        Gerne m&ouml;chte ich Sie an dieser Stelle auch noch einmal auf die &#187;DorisPaas.de &#150; Lebensmittel-Datenbank&#171; 
+                        aufmerksam machen. Sie enth&auml;lt mittlerweile ein knappes halbes Jahr nach der Einf&uuml;hrung
+                        inzwischen mehr als 900 Lebensmittel, die auf Ihre Bek&ouml;mmlichkeit bei den 
+                        verschiedensten Nahrungsmittel-Unvertr&auml;glichkeiten abgepr&uuml;ft worden sind.
+                        Testen Sie die Datenbank doch einmal aus &#150; ich empfehle Ihnen das 
+                        <a href="http://www.dorispaas.de/index.php?page=shop#abos" target="_blank">Schnupper-Abo</a>, 
+                        mit dem Sie ganze 3 Monate lang testen k&ouml;nnen, wie komfortabel die Datenbank 
+                        zu benutzen ist und wie abwechslungsreich Sie Ihren Speisezettel auch bei Vorliegen mehrerer Intoleranzen 
+                        gestalten k&ouml;nnen.
+                        <br />
+                        <br />
+                        <hr>
+                        <br />
+                        <b>&#149;	<a href="http://www.dorispaas.de/index.php?page=tv-beitraege#planetopia" target="_blank">Planetopia</a></b>
+                        <br />
+                        F&uuml;r alle diejenigen, die am 24.3.2014 keine Gelegenheit hatten, auf SAT.1 die Planetopia-Sendung 
+                        im Fernsehen anzuschauen, stelle ich hier gerne noch einmal den Link zur Sendung 
+                        zur Verf&uuml;gung. Der letzte Beitrag der Sendung behandelt das Thema &#187;Irrsinn Laktoseintoleranz &#150; wie aus einer Krankheit ein Gesch&auml;ft wird&#171;.
+                        <br />
+                        <br />
+                        <hr>
+                        <br />
+                        <b>Einen sch&ouml;nen Urlaub!</b>
+                        <br />
+                        <br />
+                        Nun w&uuml;nsche ich Ihnen eine wundersch&ouml;ne und vor allem unbeschwerte Ferienzeit. Aber auch, 
+                        wenn Sie keinen Urlaub haben, hoffe ich, dass Sie die eine oder andere Gelegenheit 
+                        wahrnehmen k&ouml;nnen, dass hoffentlich sch&ouml;ne Wetter genie&#223;en zu k&ouml;nnen, 
+                        hinaus in die Natur gehen, Ihre Hobbies pflegen, Freunde zu treffen und es sich gut gehen lassen.
+                        <br />
+                        <br />
+                        In diesem Sinne sende ich Ihnen bis zum n&auml;chsten Newsletter, den Sie in zwei 
+                        Monaten, also etwa Mitte Juli 2014 erhalten, ganz herzliche Gr&uuml;&#223;e aus dem Rheinland 
+                        <br />
+                        <br />
+                        Ihre
+                        <br />
+                        Doris Paas
+                        </p>
+                        Gerne k&ouml;nnen Sie diesen Newsletter auch an Freunde und Bekannte weiterleiten!
+                        <p>
+                        <hr>
+                        <hr>
+                        <br />
+                        &#149;	S&auml;mtliche neuen Beitr&auml;ge finden Sie immer unter dem Button 
+                        &#187;<a href="http://www.dorispaas.de/index.php?page=news" target="_blank">neueste Betr&auml;ge</a>&#171; 
+                        in der Seiten-Navigation.
+                        <br />
+                        &#149;	Den besten &Uuml;berblick &uuml;ber die kompletten Inhalte auf www.DorisPaas.de 
+                        finden Sie in der <a href="http://www.dorispaas.de/sitemap-html" target="_blank">Sitemap</a> 
+                        in der Seiten-Navigation.
+                        <br />
+                        <br />
+                        <hr>
+                        <br />
+                        Sie k&ouml;nnen den Erhalt des Newsletters jederzeit abbestellen.
+                        Bitte klicken Sie auf <a href="http://www.dorispaas.de/index.php?page=unsubscribe_newsletter&amp;ticket=%UNSUBSCRIBE_TICKET%" target="_blank">diesen Link</a>.
+                        <br />
+                        Ihre Mailadresse wird im Verteiler gel&ouml;scht, und Sie erhalten keine Mails mehr.
+                        </p>
+                    </div>
+                </div>
+            </div>    
+            <br>
+            <br> 
+            <div class="bodyspacer"></div> 
+        </div>

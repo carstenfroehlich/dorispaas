@@ -1,0 +1,115 @@
+        <div class="section no-pad-bot" id="index-banner">    
+            <div class="container">      
+                <br />
+                <br /> 
+                <div class="right">Letzte Aktualisierung: <b><?= date( "j.n.Y", filemtime( __FILE__ ) ) ?></b></div>
+                <h1 class="header center orange-text">DorisPaas-Newsletter</h1>      
+            </div>  
+        </div> 
+        <div class="container">    
+            <div class="section">   
+                <div class="row margintoprow">        
+                    <div class="col s12 m12">
+                        <b>Ausgabe 1/2013 (Januar 2013)</b>
+                        <br />
+                        -------------------------------------------------------
+                        <br />
+                        <br />
+                        Liebe Leserin, lieber Leser.
+                        <p>
+                        Zuallererst w&uuml;nsche ich Ihnen ein gutes und vor allem gesundes Jahr 2013. 
+                        Ich hoffe, dass es viel Sch&ouml;nes f&uuml;r Sie bereit h&auml;lt und Sie immer
+                        sagen k&ouml;nnen: &#187;Mir geht es gut&#187;. 
+                        <br />
+                        <br />
+                        Der Winter hat ja nach der ungew&ouml;hmlich warmen Wetterphase im Dezember doch 
+                        nun endlich bei uns Einzug gehalten, und sogar hier im sonst leider so schneearmen 
+                        Rheinland liegt eine dicke, wei&#223;e Schneedecke &#150; das ist richtig etwas 
+                        f&uuml;rs Auge. Meine Empfehlung f&uuml;r Sie lautet: Auch wenn es drau&#223;en 
+                        so richtig kalt ist, packen Sie sich warm ein und machen Sie einen Spaziergang 
+                        an der frischen Luft. Suchen Sie sich ein vielleicht noch unber&uuml;hrtes Fleckchen 
+                        und genie&#223;en Sie dieses unschuldige Wei&#223; &#150; ein solcher Eindruck, 
+                        die klare, kalte Luft und die Helligkeit tun Ihrer Gesundheit gut; das Immunsystem 
+                        wird gest&auml;rkt, die Laune steigt und der Reservetank wird aufgef&uuml;llt. 
+                        Versuchen Sie es einmal und &uuml;berwinden Sie ggf. Ihren &#187;inneren Schweinehund&#171;.
+                        <br />
+                        <br />
+                        Nun aber einige Informationen, was es Neues auf 
+                        <a href="http://www.dorispaas.de" target="_blank">DorisPaas.de</a> gibt.
+                        <br />
+                        <br />
+                        <b>&#149;   <a href="http://www.dorispaas.de/index.php?page=probiotika-studienauswertung" target="_blank">Studie zur Ermittlung der Wirksamkeit von Probiotika zur Anhebung der Laktose-Toleranzschwelle</a></b>
+                        <br />
+                        Mit einer Studie sollte ermittelt werden, ob und in welcher Weise probiotische 
+                        Pr&auml;parate eine M&ouml;glichkeit darstellen k&ouml;nnen, die Laktose-Toleranzschwelle 
+                        anzuheben, um eventuell zu erm&ouml;glichen, beim Verzehr von Laktose auf 
+                        Laktase-Pr&auml;parate verzichten zu k&ouml;nnen. Alle Besucher hatten 6 Monate 
+                        lang die Gelegenheit, sich zu beteiligen und mit der Beantwortung einiger Fragen ihre Erfahrungen 
+                        weiterzugeben. Die Studie ist seit Dezember abgeschlossen, und die Auswertung 
+                        zusammengefasst.
+                        <br />
+                        Hier k&ouml;nnen Sie das Ergebnis der <a href="http://www.dorispaas.de/index.php?page=probiotika-studienauswertung" target="_blank">Studienauswertung</a> lesen.
+                        <br />
+                        <br />
+                        <br />
+                        <b>&#149;   <a href="http://www.dorispaas.de/index.php?page=bestimmungen#regel-11" target="_blank">&#187;Health Claims&#171;</a></b>
+                        <br />
+                        Nachdem uns die Nahrungsmittel-Hersteller in Sachen Gesundheitswert ihrer Produkte 
+                        bisher nahezu &#187;das Blaue vom Himmel herunter&#171; versprechen konnten, gibt es nun
+                        seit Dezember 2012 ganz klare Regelungen, was &uuml;ber ein Produkt ausgesagt 
+                        werden darf und was nicht. Ich behaupte zwar nicht, dass ich nun tats&auml;chlich 
+                        erwarte, wirklich ehrlich aufgekl&auml;rt werden, aber ein Schritt(chen) in die 
+                        richtige Richtung ist getan. Lesen Sie hier, wie die Bestimmung lautet:
+                        <br />
+                        <a href="http://www.dorispaas.de/index.php?page=bestimmungen#regel-11" target="_blank">Neue Regelung zur Nutzung von &#187;Health Claims&#171;</a>
+                        <br />
+                        <br />
+                        <br />
+                        <b>&#149;   <a href="http://www.dorispaas.de/index.php?page=videos" target="_blank">Videos</a></b>
+                        <br />
+                        Etwas ganz Neues hat sich auf <a href="http://www.dorispaas.de" target="_blank">DorisPaas.de</a>
+                        getan: eine ganz neue Rubrik entstanden, die Videos. Bisher gibt es zwei so genannte 
+                        &#187;Erkl&auml;r-Videos&#171;, in denen ich in K&uuml;rze erl&auml;utere, was 
+                        die Laktose-Intoleranz bzw. was eine Z&ouml;liakie ist. Einige 
+                        weitere Videos sind bereits in Zusammenarbeit mit der Firma sevenloads gedreht und 
+                        befinden sich in der Bearbeitung. Diese werden &#187;Koch-Videos&#171; sein, in 
+                        denen ich Ihnen Rezepte f&uuml;r leckere Gerichte vorstelle.
+                        <br />
+                        Schauen Sie sich die <a href="http://www.dorispaas.de/index.php?page=videos" target="_blank">Videos</a>
+                        doch einmal an.
+                        <br />
+                        <br />
+                        <b>&#149;   <a href="http://www.ganzheitliche-gesundheitsberatung.de" target="_blank">www.Ganzheitliche-Gesundheitsberatung.de</a></b>
+                        <br />
+                        Wenn Sie eine pers&ouml;nliche Beratung w&uuml;nschen, k&ouml;nnen Sie sehr gerne 
+                        einen Termin in meiner Praxis in Troisdorf vereinbaren. Falls Sie 
+                        weiter entfernt wohnen, k&ouml;nnen Sie auch die deutschlandweit m&ouml;gliche 
+                        Telefonberatung nutzen. Informieren Sie sich auf meiner 
+                        <a href="http://www.ganzheitliche-gesundheitsberatung.de" target="_blank">Praxis-Website</a>
+                        oder rufen Sie mich unter 02241/97 53 26 an &#150; ich freue mich auf Sie.
+                        <br />
+                        <br />
+                        Bis zum n&auml;chsten Newsletter, den Sie wie gewohnt in zwei Monaten, also etwa 
+                        Mitte M&auml;rz 2013 erhalten, sende ich Ihnen winterliche Gr&uuml;&#223;e aus dem Rheinland
+                        <br />
+                        <br />
+                        Ihre
+                        <br />
+                        Doris Paas
+                        </p>
+                        Gerne k&ouml;nnen Sie diesen Newsletter auch an Freunde und Bekannte weiterleiten!
+                        <p>
+                        -------------------------------------------------------------------------------------------------------------
+                        <br />
+                        Sie k&ouml;nnen den Erhalt des Newsletters jederzeit abbestellen.
+                        Bitte klicken Sie auf <a href="http://www.dorispaas.de/index.php?page=unsubscribe_newsletter&amp;ticket=%UNSUBSCRIBE_TICKET%" target="_blank">diesen Link</a>.
+                        <br />
+                        Ihre Mailadresse wird im Verteiler gel&ouml;scht, und Sie erhalten keine Mails mehr.
+                        </p>
+                    </div>
+                </div>
+            </div>    
+            <br>
+            <br> 
+            <div class="bodyspacer"></div> 
+        </div>

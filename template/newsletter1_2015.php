@@ -1,0 +1,155 @@
+        <div class="section no-pad-bot" id="index-banner">    
+            <div class="container">      
+                <br />
+                <br /> 
+                <div class="right">Letzte Aktualisierung: <b><?= date( "j.n.Y", filemtime( __FILE__ ) ) ?></b></div>
+                <h1 class="header center orange-text">DorisPaas-Newsletter</h1>      
+            </div>  
+        </div> 
+        <div class="container">    
+            <div class="section">   
+                <div class="row margintoprow">        
+                    <div class="col s12 m12">
+                        <img src="<?php echo IMG_PATH; ?>dorispaas-de-titelfoto-newsletter-w.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 0px;" /></a><br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <b>DAusgabe 20 (Januar 2015)</b>
+                        <br />
+                        <br />
+                        ________________________________________________________________________________________________________
+                        <br />
+                        <br />
+                        <br />
+                        
+                        Liebe Leserin, lieber Leser.
+                        <br />
+                        <br />
+                        Zum Neuen Jahr w&uuml;nsche ich Ihnen alles Gute &ndash; vor allem aber Gesundheit,
+                        Gl&uuml;ck und Zufriedenheit. 
+                        <br />
+                        <br />
+                        Viele von Ihnen sind schon seit mehreren Jahren Abonnenten dieses Newsletters, 
+                        einige erhalten ihn heute zum ersten Mal. Sie erfahren an dieser Stelle immer 
+                        aus erster Hand, welche Neuerungen es in den letzten 2 Monaten auf 
+                        meiner Website gegeben hat. Heute bin ich ein wenig stolz darauf, Ihnen allen mitzuteilen,
+                         dass vor kurzem die 200-Seiten-Schwelle &uuml;berschritten wurde. 
+                        <a href="http://www.dorispaas.de/" target="_blank">www.DorisPaas.de</a> besteht 
+                        ja aus vielen, vielen Unterseiten, auf denen die verschiedenen Themen beschrieben 
+                        werden. Mit den letzten, aktuellen Beitr&auml;gen sind es jetzt mehr als 200 Seiten! Um 
+                        hier nicht den &Uuml;berblick zu verlieren, k&ouml;nnen Sie sich am besten auf der
+                        <a href="http://www.dorispaas.de/index.php?page=sitemap-html" target="_blank">Sitemap</a>
+                        informieren, welche Themenvielfalt sich auf der Website verbirgt. 
+                        <br />
+                        <br />
+                        <hr>
+                        <br />
+                        <a href="http://www.dorispaas.de/index.php?page=lmiv" target="_blank"><img src="<?php echo IMG_PATH; ?>paragraphen-newsletter.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 0px;" /></a>
+                        <br />
+                        <b>&#149;	<a href="http://www.dorispaas.de/index.php?page=lmiv" target="_blank">Das neue Lebensmittelinformationsgesetzes (LMIV)</a></b>
+                        <br />
+                        Seit dem 13.12.2014 m&uuml;ssen auf verpackten Nahrungsmitteln die 
+                        Allergene, die bereits seit einigen Jahren deklariert werden m&uuml;ssen (glutenhaltiges 
+                        Getreide, Eier, Milch (einschlie&#223;lich Laktose), Erdn&uuml;sse, Soja und Lupinen, Krebs-, 
+                        Schalentiere und Mollusken, Fisch, Senf, Sellerie, Sesamsamen, Schwefeldioxid 
+                        und Sulfite) nun deutlicher gekennzeichnet werden als bisher. Beispielsweise durch 
+                        Fettdruck oder durch Unterstreichung sollen diese Zutaten gleich &#187;ins Auge 
+                        fallen&#171;, damit man das Vorhandensein besser zur Kenntnis nehmen kann. Das 
+                        ist ein Fortschritt &ndash; sollte man zumindest meinen. Die Umsetzung des neuen 
+                        &#187;Lebensmittelinformationsgesetzes&#171; (LMIV) aber scheint Gastwirten, 
+                        B&auml;ckern und Metzgern doch noch gro&#223;e Schwierigkeiten zu bereiten.
+                        Lesen Sie hierzu den <a href="http://www.dorispaas.de/index.php?page=lmiv" target="_blank">Bericht</a> 
+                        und die Antwort auf die Frage &#187;<a href="http://www.dorispaas.de/index.php?page=faq#frage119" target="_blank">Kann 
+                        Fleisch Laktose enthalten, wenn das Tier mit Milch gef&uuml;ttert wurde?</a>&#171;.
+                        <br />
+                        <br />
+                        <hr>
+                        <br />
+                        <a href="http://www.dorispaas.de/index.php?page=genlabelling" target="_blank"><img src="<?php echo IMG_PATH; ?>siegel-gentechfrei.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 0px;" /></a>
+                        <br />
+                        <b>&#149;	<a href="http://www.dorispaas.de/index.php?page=genlabelling" target="_blank">Labelling von Gentechnik in Nahrungsmitteln</a></b>
+                        <br />
+                        Deutsche Verbraucher wollen in ganz &uuml;berwiegender Anzahl keine Nahrungsmittel kaufen 
+                        und verzehren, die mit gentechnisch ver&auml;nderten Organismen (GVO) hergestellt wurden.
+                        Schon jetzt ist es sehr schwer festzustellen, ob bei der Produktion eines Lebensmittels 
+                        GVO zum Einsatz kamen, obwohl eine Deklaration  bereits seit 2003 gesetzlich 
+                        vorgeschrieben ist. Und nun soll TTIP, das &#187;Transatlantische Freihandelsabkommen&#171;
+                        hinzukommen, das es uns Verbrauchern voraussichtlich noch schwerer machen wird, 
+                        klar zu erkennen, ob ein Nahrungsmittel mit Gentechnik hergestellt wurde oder nicht.
+                        <br />
+                        <br />
+                        <hr>
+                        <br />
+                        <a href="http://www.dorispaas.de/index.php?page=guterrat" target="_blank"><img src="<?php echo IMG_PATH; ?>werbung-neindanke.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 0px;" /></a>
+                        <br />
+                        <b>&#149;	<a href="http://www.dorispaas.de/index.php?page=guterrat" target="_blank">Werbung? Nein danke!</a></b>
+                        <br />
+                        Die Website <a href="http://www.dorispaas.de/" target="_blank">www.DorisPaas.de</a>
+                        existiert seit 2007 und w&auml;chst stetig. Angefangen hat alles damit, 
+                        dass ich Ihnen meine <a href="http://www.dorispaas.de/index.php?page=books" target="_blank">B&uuml;cher</a> 
+                        vorgestellt habe. Seitdem stelle ich Ihnen dar&uuml;ber 
+                        hinaus &ndash; wie oben beschrieben, inzwischen auf mehr als 200 Seiten &ndash;
+                        immer mehr brandaktuelles Wissen zur Verf&uuml;gung, und alle Informationen sind
+                        (mit Ausnahme der &#187;<a href="http://www.dorispaas.de/index.php?page=lebensmittel-datenbank-info" target="_blank">DorisPaas.de &ndash; Lebensmittel-Datenbank</a>&#171;) 
+                        vollkommen kostenlos f&uuml;r Sie! Und das soll nach M&ouml;glichkeit auch so bleiben, obwohl 
+                        ich in diese Arbeit sehr viel Zeit investiere. 
+                        Andere Websites finanzieren sich &uuml;blicherweise durch Werbung, um ihre Arbeit 
+                        und Zeit wenigstens zu einem kleinen Teil anerkannt zu bekommen. Meine Website ist 
+                        jedoch grunds&auml;tzlich komplett frei von kommerzieller Werbung. Es befindet 
+                        sich an keiner Stelle bezahlte oder in anderer Art gesponserte Werbung! 
+                        Der Grund daf&uuml;r ist, dass Sie nur so sicher sein k&ouml;nnen, dass alle Informationen 
+                        garantiert unbeeinflusst sind. Dies dient auf der einen Seite 
+                        dem Schutz meiner Unabh&auml;ngigkeit und Neutralit&auml;t, andererseits garantiert 
+                        Ihnen dies so eine objektive Information. 
+                        <br />
+                        <br />
+                        <hr>
+                        <br />
+                        Liebe Leserin, lieber Leser, f&uuml;r den (hoffentlich noch) kommenden Winter w&uuml;nsche 
+                        ich Ihnen alles Gute, ein <a href="http://www.dorispaas.de/index.php?page=ganz-immun" target="_blank">robustes 
+                        Immunsystem</a> und &ndash; falls Sie noch einen Urlaub geplant haben &ndash; gute Erholung und &#187;Hals- und Beinbruch&#171;.
+                        <br />
+                        Bis zum n&auml;chsten Newsletter, den Sie in zwei Monaten, also etwa Mitte M&auml;rz 
+                        2015 erhalten, sende ich Ihnen ganz herzliche Gr&uuml;&#223;e aus dem Rheinland 
+                        <br />
+                        Ihre
+                        <br />
+                        Doris Paas
+                        </p>
+                        <i>P.S. Gerne k&ouml;nnen Sie diesen Newsletter auch an Freunde und Bekannte weiterleiten!</i>
+                        <p>
+                        <hr>
+                        <hr>
+                        <a href="http://www.dorispaas.de/index.php?page=termine" target="_blank"><img src="<?php echo IMG_PATH; ?>termine-klein.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 0px;" /></a>
+                        <br />
+                        &#149;	Beachten Sie bitte auch die Hinweise zu den <a href="http://www.dorispaas.de/index.php?page=termine" target="_blank">Terminen</a> 
+                        f&uuml;r die Veranstaltungen, zu denen ich Sie herzlich einlade.  
+                        <br />
+                        &#149;	S&auml;mtliche neuen Beitr&auml;ge finden Sie immer unter dem Button 
+                        &#187;<a href="http://www.dorispaas.de/index.php?page=news" target="_blank">neueste Betr&auml;ge</a>&#171; 
+                        in der Seiten-Navigation.
+                        <br />
+                        &#149;	Den besten &Uuml;berblick &uuml;ber die kompletten Inhalte auf www.DorisPaas.de 
+                        finden Sie in der <a href="http://www.dorispaas.de/sitemap-html" target="_blank">Sitemap</a> 
+                        in der Seiten-Navigation.
+                        <br />
+                        <br />
+                        <hr>
+                        <br />
+                        Sie k&ouml;nnen den Erhalt des Newsletters jederzeit abbestellen.
+                        Bitte klicken Sie auf <a href="http://www.dorispaas.de/index.php?page=unsubscribe_newsletter&amp;ticket=%UNSUBSCRIBE_TICKET%" target="_blank">diesen Link</a>.
+                        <br />
+                        Ihre Mailadresse wird im Verteiler gel&ouml;scht, und Sie erhalten keine Mails mehr.
+                        </p>
+                    </div>
+                </div>
+            </div>    
+            <br>
+            <br> 
+            <div class="bodyspacer"></div> 
+        </div>

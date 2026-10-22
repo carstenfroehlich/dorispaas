@@ -1,0 +1,3 @@
+AddHandler php56-cgi .php
+
+php_value include_path .:/usr/share/php

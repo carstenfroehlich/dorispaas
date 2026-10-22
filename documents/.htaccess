@@ -1,0 +1,16 @@
+AddHandler php56-cgi .php
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ public/$1.php [NC,L]
+
+RewriteRule ^/?(.+)\.css$ style/00-process-css-files.php?name=$1
+RewriteRule ^/?(.+)\.js$ script/00-process-js-files.php?name=$1
+
+<FilesMatch ".(ico|jpg|jpeg|png|gif)$">
+  Header set Cache-Control "max-age=31536000"
+</FilesMatch>
+
+<FilesMatch ".(woff|ttf)$">
+  Header set Cache-Control "max-age=31536000"
+</FilesMatch>

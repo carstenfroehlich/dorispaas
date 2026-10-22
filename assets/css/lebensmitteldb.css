@@ -1,0 +1,764 @@
+/* CSS Document */
+
+.body1.lebdb
+{
+    width: 100%;
+}
+
+.info {
+    float: left;
+    margin-bottom: 20px;
+}
+
+.lebdb .info > p:nth-of-type(1)
+{
+    margin-bottom: 40px;
+}
+
+.logout_wrapper
+{
+    float: right;
+    margin: 0 5px 20px 0;
+    width: 120px;
+    text-align: right;
+}
+
+.logout_wrapper .copyright
+{
+    font-size: 14px;
+}
+
+.logout_wrapper .sender
+{
+    width: 112px;
+    height: 25px;
+}
+
+.lebensmittel_head_wrapper_placeholder
+{
+    width: 100%;
+    height: 0;
+}
+
+.lebensmittel_head_wrapper
+{
+    position: relative;
+    width: 100%;
+}
+
+.lebensmittel_head_wrapper.fixed
+{
+    position: fixed;
+    top: 62px;
+    left: 245px;
+    z-index: 999;
+    background-color: #295B8F;
+    border-bottom: 1px solid;
+}
+
+table.lmdb
+{
+    position: relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+ul.lebensmittel.head
+{
+    border-bottom: none;
+    z-index: 100;
+}
+
+table.lmdb th
+{
+    height: 120px;
+}
+
+.lebensmittel_head_wrapper ul.lebensmittel.head:nth-of-type(2) li h5
+{
+    height: 20px;
+}
+
+.lebensmittel_head_wrapper .row
+{
+    position: relative;
+}
+
+.lebensmittel_head_wrapper .filter_control
+{
+}
+
+.lebensmittel_head_wrapper .lu1,
+.lebensmittel_head_wrapper .lu2
+{
+    position: absolute;
+    bottom: 2px;
+    margin: 0 0 0 5px;
+    padding: 2px 5px 4px 0;
+    height: 16px;
+    text-align: right;
+    font-size: 70%;
+}
+
+.lebensmittel_head_wrapper .lu1
+{
+    right: 0;
+    width: 21%;
+    background-image: url(../images/lasche-245.png);
+}
+
+.lebensmittel_head_wrapper .lu2
+{
+    right: 255px;
+    width: 17%;
+    background-image: url(../images/lasche-190.png);
+}
+
+.lebensmittel_head_wrapper .numentr,
+.lebensmittel_head_wrapper_fixed .numentr
+{
+    font-weight: bold;
+}
+
+ul.lebensmittel li
+{
+    position: relative;
+}
+
+ul.lebensmittel li h5
+{
+    position: relative;
+}
+
+ul.lebensmittel.body li
+{
+    border-bottom: 1px solid;
+}
+
+ul.lebensmittel.body li:last-of-type
+{
+    border-bottom: none;
+}
+
+ul.lebensmittel li h5
+{
+    border-right: 1px solid;
+    font-weight: normal;
+}
+
+table.lmdb {
+    table-layout: fixed;
+}
+
+table.lmdb td {
+    font-size: 14px;
+    text-align: left;
+    margin: 0;
+    padding: 3px;
+    overflow: hidden;
+}
+
+
+table.lmdb td div.innercell {
+    position: relative;
+    height: 70px;
+    overflow: hidden;
+    transition: overflow 1s;
+    transition: height 1s;
+}
+
+table.lmdb td div.innercell.selection {
+    height: 35px;
+}
+
+table.lmdb td div {
+    /*min-height: 31px;*/
+}
+
+table.lmdb td:nth-of-type(1):not(.lmdbinner),
+table.lmdb th:nth-of-type(1):not(.lmdbinner) {
+    width: 10%;
+}
+
+
+table.lmdb td:nth-of-type(2):not(.lmdbinner),
+table.lmdb th:nth-of-type(2):not(.lmdbinner) {
+    width: 16%;
+}
+
+table.lmdb td:nth-of-type(3):not(.lmdbinner),
+table.lmdb td:nth-of-type(4):not(.lmdbinner),
+table.lmdb td:nth-of-type(5):not(.lmdbinner),
+table.lmdb td:nth-of-type(6):not(.lmdbinner),
+table.lmdb td:nth-of-type(7):not(.lmdbinner),
+table.lmdb td:nth-of-type(8):not(.lmdbinner),
+table.lmdb td:nth-of-type(9):not(.lmdbinner),
+table.lmdb td:nth-of-type(10):not(.lmdbinner),
+table.lmdb td:nth-of-type(11):not(.lmdbinner),
+table.lmdb td:nth-of-type(12):not(.lmdbinner),
+table.lmdb td:nth-of-type(13):not(.lmdbinner),
+table.lmdb th:nth-of-type(3):not(.lmdbinner),
+table.lmdb th:nth-of-type(4):not(.lmdbinner),
+table.lmdb th:nth-of-type(5):not(.lmdbinner),
+table.lmdb th:nth-of-type(6):not(.lmdbinner),
+table.lmdb th:nth-of-type(7):not(.lmdbinner),
+table.lmdb th:nth-of-type(8):not(.lmdbinner),
+table.lmdb th:nth-of-type(9):not(.lmdbinner),
+table.lmdb th:nth-of-type(10):not(.lmdbinner),
+table.lmdb th:nth-of-type(11):not(.lmdbinner),
+table.lmdb th:nth-of-type(12):not(.lmdbinner),
+table.lmdb th:nth-of-type(13):not(.lmdbinner) {
+    width: 6%;
+    text-align: center;
+    line-height: 115%;
+}
+
+/*
+table.lmdb td:nth-of-type(3) select,
+table.lmdb td:nth-of-type(4) select,
+table.lmdb td:nth-of-type(5) select,
+table.lmdb td:nth-of-type(6) select,
+table.lmdb td:nth-of-type(7) select,
+table.lmdb td:nth-of-type(8) select,
+table.lmdb td:nth-of-type(9) select,
+table.lmdb td:nth-of-type(10) select,
+table.lmdb td:nth-of-type(11) select,
+table.lmdb td:nth-of-type(12) select {
+    width: 6%;
+}
+
+*/
+table.lmdb td:nth-of-type(14):not(.lmdbinner),
+table.lmdb th:nth-of-type(14):not(.lmdbinner),
+.head_single_td {
+    width: 20%;
+    height: auto;
+    transition: height 1s;
+}
+
+div.information_mobile {
+    display: none;
+}
+
+div.information_mobile a {
+    font-weight: bold;
+}
+
+div.information_mobile a img {
+    width: 30px;
+    position: absolute;
+    top: 35px;
+}
+
+@media only screen and (max-width: 800px) {
+    table.lmdb td:nth-of-type(1):not(.lmdbinner),
+    table.lmdb th:nth-of-type(1):not(.lmdbinner) {
+        width: 14%;
+    }
+    
+    div.information_mobile {
+        display: block;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+        
+    table.lmdb td:nth-of-type(2):not(.lmdbinner),
+    table.lmdb th:nth-of-type(2):not(.lmdbinner) {
+        width: 14%;
+    }
+    
+    table.lmdb td:nth-of-type(3):not(.lmdbinner),
+    table.lmdb td:nth-of-type(4):not(.lmdbinner),
+    table.lmdb td:nth-of-type(5):not(.lmdbinner),
+    table.lmdb td:nth-of-type(6):not(.lmdbinner),
+    table.lmdb td:nth-of-type(7):not(.lmdbinner),
+    table.lmdb td:nth-of-type(8):not(.lmdbinner),
+    table.lmdb td:nth-of-type(9):not(.lmdbinner),
+    table.lmdb td:nth-of-type(10):not(.lmdbinner),
+    table.lmdb td:nth-of-type(11):not(.lmdbinner),
+    table.lmdb td:nth-of-type(12):not(.lmdbinner),
+    table.lmdb td:nth-of-type(13):not(.lmdbinner),
+    table.lmdb th:nth-of-type(3):not(.lmdbinner),
+    table.lmdb th:nth-of-type(4):not(.lmdbinner),
+    table.lmdb th:nth-of-type(5):not(.lmdbinner),
+    table.lmdb th:nth-of-type(6):not(.lmdbinner),
+    table.lmdb th:nth-of-type(7):not(.lmdbinner),
+    table.lmdb th:nth-of-type(8):not(.lmdbinner),
+    table.lmdb th:nth-of-type(9):not(.lmdbinner),
+    table.lmdb th:nth-of-type(10):not(.lmdbinner),
+    table.lmdb th:nth-of-type(11):not(.lmdbinner),
+    table.lmdb th:nth-of-type(12):not(.lmdbinner),
+    table.lmdb th:nth-of-type(13):not(.lmdbinner) {
+        width: 8%;
+        overflow: hidden;
+        text-align: right;
+    }
+    
+    table.lmdb td:nth-of-type(14):not(.lmdbinner),
+    table.lmdb th:nth-of-type(14):not(.lmdbinner),
+    .head_single_td {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    table.lmdb td:nth-of-type(1):not(.lmdbinner),
+    table.lmdb th:nth-of-type(1):not(.lmdbinner) {
+        width: 14%;
+    }
+    
+    table.lmdb td:nth-of-type(2):not(.lmdbinner),
+    table.lmdb th:nth-of-type(2):not(.lmdbinner) {
+        width: 23%;
+    }
+    
+    table.lmdb td:nth-of-type(3):not(.lmdbinner),
+    table.lmdb td:nth-of-type(4):not(.lmdbinner),
+    table.lmdb td:nth-of-type(5):not(.lmdbinner),
+    table.lmdb td:nth-of-type(6):not(.lmdbinner),
+    table.lmdb td:nth-of-type(7):not(.lmdbinner),
+    table.lmdb td:nth-of-type(8):not(.lmdbinner),
+    table.lmdb td:nth-of-type(9):not(.lmdbinner),
+    table.lmdb td:nth-of-type(10):not(.lmdbinner),
+    table.lmdb td:nth-of-type(11):not(.lmdbinner),
+    table.lmdb td:nth-of-type(12):not(.lmdbinner),
+    table.lmdb td:nth-of-type(13):not(.lmdbinner),
+    table.lmdb th:nth-of-type(3):not(.lmdbinner),
+    table.lmdb th:nth-of-type(4):not(.lmdbinner),
+    table.lmdb th:nth-of-type(5):not(.lmdbinner),
+    table.lmdb th:nth-of-type(6):not(.lmdbinner),
+    table.lmdb th:nth-of-type(7):not(.lmdbinner),
+    table.lmdb th:nth-of-type(8):not(.lmdbinner),
+    table.lmdb th:nth-of-type(9):not(.lmdbinner),
+    table.lmdb th:nth-of-type(10):not(.lmdbinner),
+    table.lmdb th:nth-of-type(11):not(.lmdbinner),
+    table.lmdb th:nth-of-type(12):not(.lmdbinner),
+    table.lmdb th:nth-of-type(13):not(.lmdbinner) {
+        width: 7%;
+    }
+}
+
+table.lmdb td:nth-of-type(14) div {
+    width: 100%;
+}
+
+table.lmdb td:nth-of-type(14):hover {
+    overflow: visible;
+}
+
+table.lmdb td:nth-of-type(14):hover div.innercell {
+    background-color: #FFF;
+    border: 1px solid;
+    box-shadow: 2px 2px 2px black;
+    height: auto;
+    overflow: visible;
+    position: absolute;
+    width: inherit;
+    display: inline-block;
+    z-index: 300;
+}
+
+table.lmdb td:nth-of-type(14):hover div.innercell:before,
+table.lmdb td:nth-of-type(14):hover div.innercell:after {
+    display: block;
+    content: " ";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: #FFF;
+}
+
+table.lmdb td {
+    background-size: 100% auto;
+}
+
+table.lmdb td div {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+
+    -ms-word-break: break-all;
+    /* This is the dangerous one in WebKit, as it breaks things wherever */
+    word-break: break-all;
+    /* Instead use this non-standard one: */
+    word-break: break-word;
+}
+
+table.lmdb td.fo-hoch {
+    /*background-color: red;*/
+    background-image: url( ../images/ampel-orange.png );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(239, 43, 5, 1.0) !important;
+}
+
+table.lmdb td.fo-hoch.pale {
+    background-image: url( ../images/ampel-orange-hell.png );
+    background-color: rgba(239, 43, 5, 0.1) !important;
+}
+
+table.lmdb td.red {
+    /*background-color: red;*/
+    background-image: url( ../images/ampel-rot.png );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(239, 43, 5, 1.0) !important;
+}
+
+table.lmdb td.red.pale {
+    background-image: url( ../images/ampel-rot-hell.png );
+    background-color: rgba(239, 43, 5, 0.1) !important;
+}
+
+table.lmdb td.fo-gelb {
+    /*background-color: yellow;*/
+    background-image: url( ../images/ampel-gelb.png );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(252, 238, 0, 1.0) !important; 
+}
+
+table.lmdb td.fo-gelb.pale {
+    background-image: url( ../images/ampel-gelb-hell.png );
+    background-color: rgba(252, 238, 0, 0.2) !important; 
+}
+
+table.lmdb td.yellow {
+    /*background-color: yellow;*/
+    background-image: url( ../images/ampel-gelb.png );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(252, 238, 0, 1.0) !important;
+}
+
+table.lmdb td.yellow.pale {
+    background-image: url( ../images/ampel-gelb-hell.png );
+    background-color: rgba(252, 238, 0, 0.2) !important;
+}
+
+table.lmdb td.fo-niedrig {
+    /*background-color: green;*/
+    background-image: url( ../images/ampel-grau.png );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(4, 156, 32, 1.0) !important;
+}
+
+table.lmdb td.fo-niedrig.pale {
+    background-image: url( ../images/ampel-grau-hell.png );
+    background-color: rgba(4, 156, 32, 0.1) !important;
+}
+
+table.lmdb td.green {
+    /*background-color: green;*/
+    background-image: url( ../images/ampel-gruen.png );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(4, 156, 32, 1.0) !important;
+}
+
+table.lmdb td.green.pale {
+    background-image: url( ../images/ampel-gruen-hell.png );
+    background-color: rgba(4, 156, 32, 0.1) !important;
+}
+
+table.lmdb td div.multi_filter_header {
+    height: 31px;
+    width: 100%;
+    position: absolute;
+    border: 2px inset ThreeDLightShadow;
+    color: black;
+    background: white url( ../images/combo-arrow.png ) no-repeat right center;
+    white-space: nowrap;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1180px) {
+    table.lmdb td.fo-hoch {
+        background-image: url( ../images/ampel-orange-halb.png );
+    }
+    
+    table.lmdb td.fo-hoch.pale {
+        background-image: url( ../images/ampel-orange-hell-halb.png );
+    }
+    
+    table.lmdb td.red {
+        background-image: url( ../images/ampel-rot-halb.png );
+    }
+    
+    table.lmdb td.red.pale {
+        background-image: url( ../images/ampel-rot-hell-halb.png );
+    }
+    
+    table.lmdb td.fo-gelb {
+        background-image: url( ../images/ampel-gelb-halb.png );
+    }
+    
+    table.lmdb td.fo-gelb.pale {
+        background-image: url( ../images/ampel-gelb-hell-halb.png );
+    }
+    
+    table.lmdb td.yellow {
+        background-image: url( ../images/ampel-gelb-halb.png );
+    }
+    
+    table.lmdb td.yellow.pale {
+        background-image: url( ../images/ampel-gelb-hell-halb.png );
+    }
+    
+    table.lmdb td.fo-niedrig {
+        background-image: url( ../images/ampel-grau-halb.png );
+    }
+    
+    table.lmdb td.fo-niedrig.pale {
+        background-image: url( ../images/ampel-grau-hell-halb.png );
+    }
+    
+    table.lmdb td.green {
+        background-image: url( ../images/ampel-gruen-halb.png );
+    }
+    
+    table.lmdb td.green.pale {
+        background-image: url( ../images/ampel-gruen-hell-halb.png );
+    }
+}
+/*
+@media only screen and (max-width: 800px) {
+    table.lmdb td.fo-hoch {
+        background-image: none;
+        background-color: rgba(251, 154, 0, 1.0) !important;
+        
+    }
+    
+    table.lmdb td.fo-hoch.pale {
+        background-image: none;
+        background-color: rgba(239, 43, 5, 0.7) !important;
+    }
+    
+    table.lmdb td.red {
+        background-image: none;
+        background-color: rgba(239, 43, 5, 1.0) !important;
+    }
+    
+    table.lmdb td.red.pale {
+        background-image: none;
+        background-color: rgba(239, 43, 5, 0.7) !important;
+    }
+    
+    table.lmdb td.fo-gelb {
+        background-image: none;
+        background-color: rgba(252, 238, 0, 1.0) !important;        
+    }
+    
+    table.lmdb td.fo-gelb.pale {
+        background-image: none;
+        background-color: rgba(252, 238, 0, 0.5) !important;        
+    }
+    
+    table.lmdb td.yellow {
+        background-image: none;
+        background-color: rgba(252, 238, 0, 1.0) !important;
+    }
+    
+    table.lmdb td.yellow.pale {
+        background-image: none;
+        background-color: rgba(252, 238, 0, 0.5) !important;
+    }
+    
+    table.lmdb td.fo-niedrig {
+        background-color: rgba(4, 156, 32, 1.0) !important;
+        background-image: none;
+    }
+    
+    table.lmdb td.fo-niedrig.pale {
+        background-color: rgba(4, 156, 32, 0.7) !important;
+        background-image: none;
+    }
+    
+    table.lmdb td.green {
+        background-image: none;
+        background-color: rgba(4, 156, 32, 1.0) !important;
+    }
+    
+    table.lmdb td.green.pale {
+        background-image: none;
+        background-color: rgba(4, 156, 32, 0.7) !important;
+    }
+}
+*/
+
+table.lmdb td div.multi_filter_wrapper {
+    position: absolute;
+    z-index: 100;
+    margin: 0;
+    padding: 8px 25px 25px 25px;
+    /*background-color: purple;*/
+}
+
+table.lmdb td ul.multi_filter {
+    position: relative;
+    /*
+    top: 26px;
+    left: 0px;
+    z-index: 100;
+    */
+    border: 2px inset;
+    margin: 0;
+    padding: 0;
+    min-height: 150px;
+    max-height: 200px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    list-style-type: none;
+}
+
+table.lmdb td ul.multi_filter2 {
+    display: none;
+}
+
+table.lmdb td ul.multi_filter2:hover {
+    display: block;
+}
+
+table.lmdb td ul.multi_filter li {
+    text-align: left;
+    padding: 3px;
+    white-space: nowrap;
+    cursor: default;
+    background-color: white;
+    color: black;
+}
+
+table.lmdb td ul.multi_filter li.active {
+    color: HighlightText;
+    background-color: Highlight;
+}
+
+table.lmdb td ul.multi_filter li:hover {
+    color: HighlightText;
+    background-color: Highlight;
+}
+
+table.lmdb td,
+table.lmdb th {
+    border: 1px solid #000 !important;
+    font-size: 12px;
+}
+
+.rotate {
+    position: relative;
+}
+
+.innerrotate div {
+    font-weight: bold;
+}
+
+.always.rotate .innerrotate {
+    right: 0;
+	transform: rotate(-90deg) translate(0, -110%);
+	transform-origin: 100% 0;
+	position: absolute;
+    text-align: right;
+    line-height: 14px;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 900px) {
+    table.lmdb td,
+    table.lmdb th {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+        
+    table.lmdb td {
+        font-size: 10px;
+    }
+    
+    .innerrotate {
+        right: 0;
+    	transform: rotate(-90deg) translate(0, -110%);
+    	transform-origin: 100% 0;
+    	position: absolute;
+        font-size: 14px;
+        line-height: 14px;
+    }
+    
+    .descript {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .innerrotate,
+    .always.rotate .innerrotate {
+        transform: rotate(-90deg) translate(0, -80%);
+        font-size: 10px;
+        line-height: 10px;
+    }
+}
+
+select {
+    height: 2rem !important;
+    border: 1px solid #BBB !important;
+}
+
+select.multiselect {
+    height: 4.5rem !important;
+}
+
+@media only screen and (max-width: 800px) {
+    .mobileHidden {
+        display: none;
+    }
+}
+
+div.row.lmbdfixed div.fixthisheader {
+    position: fixed;
+    z-index: 1000;
+}
+
+.mobile-view {
+    display: none;
+}
+
+@media only screen and (max-width: 800px) {
+    .innerrotate {
+        display: none;
+    }
+    
+    .mobile-view {
+    	position: absolute;
+        text-align: left;
+        line-height: 14px;
+        font-size: 14px;
+        display: block;
+    }
+    
+    table.lmdb th {
+        height: 45px;
+    }
+}
+
+span.sprungmarke {
+    position: absolute;
+    visibility: hidden;
+    height: 0px !important;
+    margin-top: -245px;
+}
+
+table td.lmdbinner {
+    border: none !important;
+    font-weight: bold; 
+    font-size: 16px;
+}
+
+table td.lmdbinner a {
+    width: 100%;
+    display: block; 
+    text-align: center;
+    text-decoration: underline overline;
+}

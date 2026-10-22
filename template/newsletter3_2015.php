@@ -1,0 +1,213 @@
+        <div class="section no-pad-bot" id="index-banner">    
+            <div class="container">      
+                <br />
+                <br /> 
+                <div class="right">Letzte Aktualisierung: <b><?= date( "j.n.Y", filemtime( __FILE__ ) ) ?></b></div>
+                <h1 class="header center orange-text">DorisPaas-Newsletter</h1>      
+            </div>  
+        </div> 
+        <div class="container">    
+            <div class="section">   
+                <div class="row margintoprow">        
+                    <div class="col s12 m12">
+                        <img src="<?php echo IMG_PATH; ?>dorispaas-de-titelfoto-newsletter-w.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 0px;" /></a><br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <b>Ausgabe 22 (Mai 2015)</b>
+                        <br />
+                        <br />
+                        ________________________________________________________________________________________________________
+                        <br />
+                        <br />
+                        <br />
+                        
+                        <a href="http://www.dorispaas.de/" target="_blank"><img src="<?php echo IMG_PATH; ?>nl-2015-03-einleitung.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 10px;" /></a>
+                        Liebe Leserin, lieber Leser.
+                        <br />
+                        <br />
+                        mit der nun beginnenden warmen Jahreszeit ist auch die Balkon- und Garten- oder 
+                        Parksaison er&ouml;ffnet: es zieht uns hinaus an die frische Luft, um das 
+                        sch&ouml;ne Wetter zu genie&#223;en, spazieren zu gehen, drau&#223;en Sport zu 
+                        treiben, mit Freunden zu feiern, zu grillen und vieles mehr.
+                        Das macht nicht nur Spa&#223; &ndash; &#187;ganz nebenbei&#171; kann dies alles 
+                        helfen, Ihre Gesundheit zu st&auml;rken. Gesundheitsf&ouml;rderung muss n&auml;mlich
+                        nicht Verzicht und Selbstkasteiung bedeuten, sondern kann tats&auml;chlich 
+                        richtig Spa&#223; machen! Schauen Sie auf 
+                        Ihrem n&auml;chsten Spaziergang doch einmal in die Gesichter der Menschen, die 
+                        Ihnen auf dem Fahrrad entgegen kommen, oder spielen Sie ein 
+                        wenig &#187;M&auml;uschen&#171; und h&ouml;ren Sie die fr&ouml;hlichen Stimmen 
+                        derjenigen, die sich im Park zum gemeinsamen Grillen treffen. Sowohl die Freude 
+                        an der Bewegung und den sportlichen Aktivit&auml;ten als auch der Spa&#223; mit anderen 
+                        und &ndash; nicht zuletzt &ndash; auch das bewusste Genie&#223;en f&ouml;rdert eine 
+                        ganzheitliche Gesundheit.
+                        <br />
+                        <br />
+                        <br />
+                        <hr>
+                        <br />
+                        <a href="http://www.dorispaas.de/index.php?page=ganz-saeulenmodell" target="_blank"><img src="<?php echo IMG_PATH; ?>nl-2015-03-saeulenmodell.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 0px;" /></a>
+                        <b>&#149;	<a href="http://www.dorispaas.de/index.php?page=ganz-saeulenmodell" target="_blank">Ganzheitliche Gesundheit</a></b>
+                        <br />
+                        <br />
+                        Wie ein griechischer Tempel ruht unsere Gesundheit auf vielen S&auml;ulen, die alle 
+                        gemeinsam das &#187;Geb&auml;ude der Gesundheit&#171; st&uuml;tzen. Ist eine S&auml;ule 
+                        schadhaft, so st&uuml;rzt meist noch nicht das gesamte Geb&auml;ude ein. Die 
+                        Stabilit&auml;t jedoch ist beeintr&auml;chtigt, und es ist wichtig, diese S&auml;ule 
+                        so schnell und gut wie m&ouml;glich wieder herzurichten, denn irgendwann beginnt 
+                        ansonsten die Decke zu br&ouml;ckeln. Und wenn mehrere S&auml;ulen nicht mehr 
+                        tragf&auml;hig sind, ist das ganze Geb&auml;ude in ernsthafter Gefahr. So wie mit 
+                        diesem Gleichnis verh&auml;lt es sich auch mit unserer Gesundheit: Wenn wir den 
+                        einen oder anderen gesundheitlichen Aspekt dauerhaft vernachl&auml;ssigen, passiert 
+                        meist zun&auml;chst kaum etwas, das wir bemerken. Erst, wenn wir mehrere Faktoren 
+                        missachten &ndash; und dies auch noch &uuml;ber l&auml;ngere Zeitr&auml;ume &ndash; 
+                        laufen wir ernsthaft Gefahr, unsere Gesundheit nachhaltig zu ruinieren und unser 
+                        Leben zu verk&uuml;rzen. 
+                        Die Beitr&auml;ge zum Thema &#187;Ganzheitliche Gesundheit&#171; auf 
+                        <a href="http://www.dorispaas.de" target="_blank">www.DorisPaas.de</a>
+                        erkl&auml;ren Ihnen, welche S&auml;ulen Ihre Gesundheit st&uuml;tzen und zeigen 
+                        viele Wege, wie Sie das Geb&auml;ude Ihrer Gesundheit in Stand halten oder ggf. 
+                        auch restaurieren k&ouml;nnen.
+                        <br />
+                        <br />
+                        Und alle, die im Umkreis von K&ouml;ln wohnen, lade ich schon heute ganz herzlich ein zum Vortrag 
+                        &#187;<a href="http://www.dorispaas.de/index.php?page=termine#vhs-koeln-2015-11-17" target="_blank">Gesundheit 
+                        ist mehr als nicht krank zu sein</a>&#171; am 17.November 2015 ein. Hier erfahren 
+                        Sie alles, was Sie selbst dazu beitragen k&ouml;nnen, um das Geb&auml;ude Ihrer 
+                        Gesundheit stabil zu halten.
+                        <br />
+                        <br />
+                        <br />
+                        <hr>
+                        <br />
+                        <a href="http://www.dorispaas.de/index.php?page=darmreinigung" target="_blank"><img src="<?php echo IMG_PATH; ?>nl-2015-03-darmreinigung.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 0px;" /></a>
+                        <b>&#149;	<a href="http://www.dorispaas.de/index.php?page=darmreinigung" target="_blank">Darmreinigung</a></b>
+                        <br />
+                        <br />
+                        Zu einer unseren K&ouml;rper, unseren Geist und unsere Seele umfassenden Gesundheit 
+                        geh&ouml;rt auch ein sauberer Darm. Ein gesunder Darm reinigt sich eigentlich von 
+                        alleine. Mit jeder Entleerung werden 
+                        die unverdauten Nahrungsreste, abgestorbene Schleimhautzellen und Bakterien und 
+                        auch eventuelle Ablagerungen ausgeschieden. Entscheidend f&uuml;r diese Funktion ist 
+                        eine gesunde Verdauung, die sich durch verschiedene Komponenten ergibt. 
+                        <br />
+                        <br />
+                        In speziellen F&auml;llen kann es erforderlich sein, eine Darmreinigung k&uuml;nstlich 
+                        herbeizuf&uuml;hren &ndash; im Normalfall ist dies jedoch meistens nicht erforderlich.
+                        Wann eine k&uuml;nstlich herbeigef&uuml;hrte Darmreinigung erforderlich und sinnvoll 
+                        ist und welche M&ouml;glichkeiten es gibt, beleuchtet dieser neue Beitrag. 
+                        <br />
+                        <br />
+                        <hr>
+                        <br />
+                        <a href="http://www.dorispaas.de/index.php?page=ganz-genuss" target="_blank"><img src="<?php echo IMG_PATH; ?>nl-2015-03-salatteller.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 10px;" /></a>
+                        <b>&#149;	<a href="http://www.dorispaas.de/index.php?page=ganz-genuss" target="_blank">Genie&#223;en bei Nahrungsmittel-Unvertr&auml;glichkeiten &ndash; ja bitte!</a></b>
+                        <br />
+                        Oftmals betrachten Menschen, die an Unvertr&auml;glichkeiten leiden, viele oder die 
+                        meisten Nahrungsmittel als Feind, und jedes Essen wird zu einem Kampf &ndash; 
+                        einem Kampf, den man nie gewinnen kann. Unter solchen negativen Bedingungen kann 
+                        man nat&uuml;rlich kaum eine Mahlzeit mehr genie&#223;en &ndash; alles, was man isst, wird 
+                        als wahrscheinlicher Beschwerdeverursacher angesehen.
+                        Dass dies keineswegs so sein muss, zeigt der neue Beitrag auf. Erste Voraussetzung 
+                        zum beschwerdefreien Genuss ist die korrekte Diagnose eventueller Unvertr&auml;glichkeiten.
+                        Danach ist es unerl&auml;sslich, die vertr&auml;glichen Nahrungsmittel auszuw&auml;hlen.
+                        Weiterhin ist das Verstehen des Zusammenhangs zwischen psychischer Verfassung und 
+                        Darmgesundheit wichtig. So ger&uuml;stet, kann das Essen endlich wieder zum 
+                        Vergn&uuml;gen werden, und dem unbeschwerten Genuss steht nichts mehr entgegen.
+                        <br />
+                        <br />
+                        <hr>
+                        <br />
+                        <a href="http://www.dorispaas.de/index.php?page=zuckerkrankheiten" target="_blank"><img src="<?php echo IMG_PATH; ?>nl-2015-03-zucker.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 10px;" /></a>
+                        <b>&#149;	<a href="http://www.dorispaas.de/index.php?page=zuckerkrankheiten" target="_blank">Wird man von Zuckergenuss krank &ndash; und wenn ja, warum?</a></b>
+                        <br />
+                        Zucker &ndash; und damit ist nicht nur der Haushaltszucker gemeint, sondern die 
+                        meisten anderen Zuckersorten auch &ndash; tr&auml;gt das negative Image, ungesund 
+                        zu sein, obwohl die meisten Menschen S&uuml;&#223;es gerne m&ouml;gen. Bereits als 
+                        S&auml;uglinge werden wir auf s&uuml;&#223;en Geschmack gepr&auml;gt: Der in der 
+                        Muttermilch enthaltene Milchzucker (Laktose) l&auml;sst diese erste Nahrung 
+                        s&uuml;&#223; schmecken, die uns nicht nur s&auml;ttigt, sondern beim Trinken auch 
+                        beruhigt und uns der Mutter ganz nahe sein l&auml;sst. Wir verbinden diese 
+                        Geschmacksrichtung also mit vielen angenehmen Erfahrungen. Woher kommt dann der 
+                        schlechte Ruf von Zucker und allem S&uuml;&#223;en? Macht Zucker wirklich krank? 
+                        In dem neuen Beitrag wird der Zucker kritisch beleuchtet. Es wird geschaut, welche 
+                        S&uuml;&#223;ungsmittel es gibt und wie &#187;gesund&#171; sie sind. Auch die 
+                        Verdauung der verschiedenen Zucker wird erkl&auml;rt und erl&auml;utert, was man 
+                        bei eventuellen Unvertr&auml;glichkeiten beachten sollte. Und &ndash; last, but 
+                        not least &ndash; auch ein Fazit gezogen, ob und ggf. welche Alternativen zur 
+                        Verf&uuml;gung stehen, um doch ab und an etwas S&uuml;&#223;es genie&#223;en zu 
+                        k&ouml;nnen.
+                        <br />
+                        <br />
+                        <hr>
+                        <br />
+                        <a href="http://www.bgm.ganzheitliche-gesundheitsberatung.de" target="_blank"><img src="<?php echo IMG_PATH; ?>nl-2015-03-bgm.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 0px;" /></a>
+                        <b>&#149;	<a href="http://www.bgm.ganzheitliche-gesundheitsberatung.de" target="_blank">Betriebliches Gesundheitsmanagement/Betriebliche Gesundheitsf&ouml;rderung</a></b>
+                        <br />
+                        Die gemeinsame Freude und das gemeinsame Genie&#223;en k&ouml;nnen auch Sie als 
+                        Arbeitgeber zur F&ouml;rderung der Gesundheit der Ihnen anvertrauten Mitarbeiter 
+                        nutzen. Zu Ihrem Unternehmenserfolg tragen u.a. auch die Gesundheit Ihrer Mitarbeiter 
+                        und ein gutes Betriebsklima einen gro&#223;en Teil bei. Sie k&ouml;nnen Ihre Produktivit&auml;t 
+                        signifikant steigern, ohne zus&auml;tzliche Mitarbeiter einstellen zu m&uuml;ssen, 
+                        ohne Mitarbeiter entlassen zu m&uuml;ssen und ohne nennenswerte finanzielle 
+                        Investitionen t&auml;tigen zu m&uuml;ssen! &#187;Wie soll das gehen?&#171; fragen Sie sich?
+                        Im Rahmen eines Einf&uuml;hrungsvortrags biete ich Ihnen als Arbeitgeber an, sich 
+                        &uuml;ber die M&ouml;glichkeiten zu informieren, die Ihnen zur Verf&uuml;gung stehen. 
+                        Gerne k&ouml;nnen Sie mich unter 02241/97 53 26 anrufen, um einen Termin zu vereinbaren.
+                        <br />
+                        <br />
+                        <br />
+                        <hr>
+                        Liebe Leserin, lieber Leser, in diesem Sinne w&uuml;nsche ich Ihnen eine gesunde und genussvolle Zeit 
+                        und sende Ihnen bis zum n&auml;chsten Newsletter, den Sie in zwei Monaten, also 
+                        etwa Mitte Juli 2015 erhalten, ganz herzliche Gr&uuml;&#223;e aus dem Rheinland 
+                        <br />
+                        Ihre
+                        <br />
+                        <img src="<?php echo IMG_PATH; ?>nl-unterschrift-dopa.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 10px; padding-bottom: 0px;" />
+                        </p>
+                        <br />
+                        <br />
+                        <br />
+                        <i>P.S. Gerne k&ouml;nnen Sie diesen Newsletter auch an Freunde und Bekannte weiterleiten!</i>
+                        <p>
+                        <br />
+                        <hr>
+                        <hr>
+                        <a href="http://www.dorispaas.de/index.php?page=termine" target="_blank"><img src="<?php echo IMG_PATH; ?>newsletter-zettel.png" alt="" border="0" hspace="0" vspace="0" style="float: left; margin-left: 0px; margin-right: 20px; padding-bottom: 0px;" /></a>
+                        <br />
+                        &#149;	Beachten Sie bitte auch die Hinweise zu den <a href="http://www.dorispaas.de/index.php?page=termine" target="_blank">Terminen</a> 
+                        f&uuml;r die Veranstaltungen, zu denen ich Sie herzlich einlade.  
+                        <br />
+                        &#149;	S&auml;mtliche neuen Beitr&auml;ge finden Sie immer unter dem Button 
+                        &#187;<a href="http://www.dorispaas.de/index.php?page=news" target="_blank">neueste Betr&auml;ge</a>&#171; 
+                        in der Seiten-Navigation.
+                        <br />
+                        &#149;	Den besten &Uuml;berblick &uuml;ber die kompletten Inhalte auf www.DorisPaas.de 
+                        finden Sie in der <a href="http://www.dorispaas.de/sitemap-html" target="_blank">Sitemap</a> 
+                        in der Seiten-Navigation.
+                        <br />
+                        &#149;	www.dorispaas.de &ndash; garantiert <a href="http://www.dorispaas.de/guterrat" target="_blank">werbefreie 
+                        und unabh&auml;ngige Informationen</a>. 
+                        
+                        <br />
+                        <br />
+                        <hr>
+                        <br />
+                        Sie k&ouml;nnen den Erhalt des Newsletters jederzeit abbestellen.
+                        Bitte klicken Sie auf <a href="http://www.dorispaas.de/index.php?page=unsubscribe_newsletter&amp;ticket=%UNSUBSCRIBE_TICKET%" target="_blank">diesen Link</a>.
+                        <br />
+                        Ihre Mailadresse wird im Verteiler gel&ouml;scht, und Sie erhalten keine Mails mehr.
+                        </p>
+                    </div>
+                </div>
+            </div>    
+            <br>
+            <br> 
+            <div class="bodyspacer"></div> 
+        </div>
