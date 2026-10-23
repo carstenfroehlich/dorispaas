@@ -1,14 +1,14 @@
 <?php
     if($_SERVER['HTTP_HOST'] == 'localhost') {
         /* localhost */
-        /*define('HOST', "localhost");
+        define('HOST', "localhost");
         define('DB_USER', "root");
         define('DB_PWD', "");
-        define('DB_NAME', "dorispaaslive");*/
-        define('HOST', "dorispaas.de");
+        define('DB_NAME', "dorispaas");
+        /*define('HOST', "dorispaas.de");
         define('DB_USER', "d00eaabc");
         define('DB_PWD', 'lis123');
-        define('DB_NAME', "d00eaabc");
+        define('DB_NAME', "d00eaabc");*/
         define('URL_BASIC', "localhost");
         define('USE_CURL', false);
         define('BASE_PAT', "/dorispaas/");

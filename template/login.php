@@ -1,3 +1,9 @@
+<?php
+    $message = null;
+    if(isset($ACTION[1]) && $ACTION[1] == 'changedold') {
+        $message = 'Aufgrund der Einführung neuer Sicherheitsmechanismen musste Ihr Passwort einmalig geändert werden. Ein neues Passwort wurde ihnen soeben per Email zugesendet. Bitte prüfen Sie auch Ihren Spanordner.';
+    }
+?>
         <div class="section no-pad-bot" id="index-banner">    
             <div class="container">      
                 <br />
@@ -6,7 +12,12 @@
                 <h1 class="header center orange-text">Login</h1>      
             </div>  
         </div> 
-        <div class="container bodycontainer">    
+        <div class="container bodycontainer">
+        <?php if($message != null) { ?>
+                <div class="alert alert-success">
+                    <?php echo $message; ?>
+                </div> 
+            <?php } ?>    
             <div class="row">        
                 <div class="col s12 m12">
                     <br />

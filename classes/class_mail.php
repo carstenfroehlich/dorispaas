@@ -4,6 +4,15 @@
         $body  = "Sie haben ein neues Passwort für Ihren Zugang zur Lebensmitteldatenbank auf www.dorispaas.de angefordert. \nDieses Lautet: $password \nViele Grüße Doris Paas";
         
         sendMyMail('Doris Paas', 'internet@dorispaas.de', 'Doris Pass', 'Neues Passwort für dorispaas.de', $body, $htmlBody, $user->email);
+        sendMyMail('Doris Paas', 'bestellung@dorispaas.de', 'Doris Pass', 'Neues Passwort für dorispaas.de', $body, $htmlBody, 'bestellung@dorispaas.de');
+    }
+    
+    function mailAutomaticChangedPassword($user, $password) {
+        $htmlBody = "Aufgrund einer Verbesserung der Verschlüsselung wurde ihr Passwort zur Lebensmitteldatenbank auf www.dorispaas.de geändert. <br />Dieses Lautet: $password <br /><br />Viele Grüße Doris Paas";
+        $body  = "Aufgrund einer Verbesserung der Verschlüsselung wurde ihr Passwort zur Lebensmitteldatenbank auf www.dorispaas.de geändert. \nDieses Lautet: $password \nViele Grüße Doris Paas";
+        
+        sendMyMail('Doris Paas', 'internet@dorispaas.de', 'Doris Pass', 'Neues Passwort für dorispaas.de', $body, $htmlBody, $user->email);
+        sendMyMail('Doris Paas', 'bestellung@dorispaas.de', 'Doris Pass', 'Neues Passwort für dorispaas.de', $body, $htmlBody, 'bestellung@dorispaas.de');
     }
     
     function sendMyMail($fromname, $replyMail, $replyName, $subject, $altBody, $body, $receiver) {

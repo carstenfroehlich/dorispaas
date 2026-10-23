@@ -9,12 +9,17 @@
     
     if(isset($ACTION[1])) {
         if($ACTION[0] == 'login' && $ACTION[1] == 'performlogin') {
-        //echo securePassword($_POST['password']); die();
             $searchedUser = getSingleUserByEmail( $_POST['email'] );
             if ( isset($searchedUser) && $searchedUser->id > 0 ) {
                 $date = new DateTime($searchedUser->actual_order_expiration_date);
                 if(strtotime($date->format('Y-m-d')) > strtotime(date('Y-m-d'))) {
-                    if(checkPassword($_POST['password'], $searchedUser->password)) {
+                    if (strlen($searchedUser->password) === 13 && str_starts_with($searchedUser->password, '$2')) {
+                        $password = createPassword();
+                        $searchedUser = loadUser(updateUserPassword($searchedUser, securePassword($password)));
+                        mailAutomaticChangedPassword($searchedUser, $password);
+                        header('Location: '.URL_ROOT.'login/changedold');
+                        exit();
+                    } else if(checkPassword($_POST['password'], $searchedUser->password)) {
                         $token = array();
                         $token['id'] = $searchedUser->id;
                         $token['lastlogin'] = date('Y-m-d H:i:s');

@@ -2,24 +2,17 @@
     function createPassword() {
         $chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
         $createdPassword = "";
-        for ($i = 0; $i < 8; $i++) {
+        for ($i = 0; $i < 12; $i++) {
             $createdPassword .= $chars[mt_rand(0, strlen($chars)-1)];
         }
         return $createdPassword;
     }
     
     function securePassword($password) {
-        /*$salt = openssl_random_pseudo_bytes(22);
-        $salt = '$2a$13$' . strtr($salt, array('_' => '.', '~' => '/'));
-        return crypt($password, $salt);*/
-        return password_hash($password, PASSWORD_BCRYPT, ['cost' => 13]);
+        return password_hash($password, PASSWORD_DEFAULT);
     }
     
     function checkPassword($password, $hash) {
-        /*if ( crypt($password, $hash) == $hash ) {
-            return true;
-        }
-        return false;*/
         return password_verify($password, $hash);
     }
     
