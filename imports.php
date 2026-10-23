@@ -29,5 +29,7 @@
     require_once('classes/class_newsletterscubscription.php');
     require_once('classes/class_newslettersend.php');
     require_once('classes/JsonSerializer.php');
-    require_once('phpmailer/PHPMailerAutoload.php');
+    require_once(__DIR__ . '/phpmailer/src/Exception.php');
+    require_once(__DIR__ . '/phpmailer/src/PHPMailer.php');
+    require_once(__DIR__ . '/phpmailer/src/SMTP.php');
 ?>

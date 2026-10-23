@@ -658,9 +658,9 @@ class RPDO implements Driver
 			$this->logger->log( $sql, $bindings );
 		}
 		try {
-			if ( strpos( 'pgsql', $this->dsn ) === 0 ) {
-				if ( defined( '\PDO::PGSQL_ATTR_DISABLE_NATIVE_PREPARED_STATEMENT' ) ) {
-					$statement = $this->pdo->prepare( $sql, array( \PDO::PGSQL_ATTR_DISABLE_NATIVE_PREPARED_STATEMENT => TRUE ) );
+			if ( strpos( $this->dsn, 'pgsql' ) === 0 ) {
+				if ( defined( '\Pdo\Pgsql::ATTR_DISABLE_PREPARES' ) ) {
+					$statement = $this->pdo->prepare( $sql, array( \Pdo\Pgsql::ATTR_DISABLE_PREPARES => TRUE ) );
 				} else {
 					$statement = $this->pdo->prepare( $sql );
 				}
@@ -672,7 +672,7 @@ class RPDO implements Driver
 			$this->queryCounter ++;
 			$this->affectedRows = $statement->rowCount();
 			if ( $statement->columnCount() ) {
-				$fetchStyle = ( isset( $options['fetchStyle'] ) ) ? $options['fetchStyle'] : NULL;
+				$fetchStyle = ( isset( $options['fetchStyle'] ) ) ? $options['fetchStyle'] : \PDO::FETCH_DEFAULT;
 				if ( isset( $options['noFetch'] ) && $options['noFetch'] ) {
 					$this->resultArray = array();
 					return $statement;
@@ -709,7 +709,7 @@ class RPDO implements Driver
 		$version = floatval( $this->pdo->getAttribute( \PDO::ATTR_SERVER_VERSION ) );
 		if ($driver === 'mysql') {
 			$encoding = ($version >= 5.5) ? 'utf8mb4' : 'utf8';
-			$this->pdo->setAttribute(\PDO::MYSQL_ATTR_INIT_COMMAND, 'SET NAMES '.$encoding ); //on every re-connect
+			$this->pdo->setAttribute(\Pdo\Mysql::ATTR_INIT_COMMAND, 'SET NAMES '.$encoding ); //on every re-connect
 			$this->pdo->exec(' SET NAMES '. $encoding); //also for current connection
 			$this->mysqlEncoding = $encoding;
 		}
@@ -775,7 +775,7 @@ class RPDO implements Driver
 	 */
 	public function setUseStringOnlyBinding( $yesNo )
 	{
-		$this->flagUseStringOnlyBinding = (boolean) $yesNo;
+		$this->flagUseStringOnlyBinding = (bool) $yesNo;
 	}
 
 	/**
@@ -1097,7 +1097,7 @@ class RPDO implements Driver
 	 */
 	public function setEnableLogging( $enable )
 	{
-		$this->loggingEnabled = (boolean) $enable;
+		$this->loggingEnabled = (bool) $enable;
 	}
 
 	/**
@@ -1160,7 +1160,7 @@ use RedBeanPHP\RedException as RedException;
  * This source file is subject to the BSD/GPLv2 License that is bundled
  * with this source code in the file license.txt.
  */
-class OODBBean implements\IteratorAggregate,\ArrayAccess,\Countable
+class OODBBean implements \IteratorAggregate,\ArrayAccess,\Countable
 {
 	/**
 	 * FUSE error modes.
@@ -1329,7 +1329,7 @@ class OODBBean implements\IteratorAggregate,\ArrayAccess,\Countable
 	 */
 	public static function setAutoResolve( $automatic = TRUE )
 	{
-		self::$autoResolve = (boolean) $automatic;
+		self::$autoResolve = (bool) $automatic;
 	}
 
 	/**
@@ -1538,7 +1538,7 @@ class OODBBean implements\IteratorAggregate,\ArrayAccess,\Countable
 	 *
 	 * @return ArrayIterator
 	 */
-	public function getIterator()
+	public function getIterator(): \Traversable
 	{
 		return new \ArrayIterator( $this->properties );
 	}
@@ -2044,7 +2044,7 @@ class OODBBean implements\IteratorAggregate,\ArrayAccess,\Countable
 		$differentAlias = ($hasAlias && $isOwn && isset($this->__info['sys.alias.'.$listName])) ?
 								($this->__info['sys.alias.'.$listName] !== $this->aliasName) : FALSE;
 		$hasSQL         = ($this->withSql !== '' || $this->via !== NULL);
-		$hasAll         = (boolean) ($this->all);
+		$hasAll         = (bool) ($this->all);
 
 		//If exists and no list or exits and list not changed, bail out.
 		if ( $exists && ((!$isOwn && !$isShared ) ||  (!$hasSQL && !$differentAlias && !$hasAll)) ) {
@@ -2407,7 +2407,7 @@ class OODBBean implements\IteratorAggregate,\ArrayAccess,\Countable
 	 *
 	 * @return void
 	 */
-	public function offsetSet( $offset, $value )
+	public function offsetSet( mixed $offset, mixed $value ): void
 	{
 		$this->__set( $offset, $value );
 	}
@@ -2424,7 +2424,7 @@ class OODBBean implements\IteratorAggregate,\ArrayAccess,\Countable
 	 *
 	 * @return boolean
 	 */
-	public function offsetExists( $offset )
+	public function offsetExists( mixed $offset ): bool
 	{
 		return $this->__isset( $offset );
 	}
@@ -2442,7 +2442,7 @@ class OODBBean implements\IteratorAggregate,\ArrayAccess,\Countable
 	 *
 	 * @return void
 	 */
-	public function offsetUnset( $offset )
+	public function offsetUnset( mixed $offset ): void
 	{
 		$this->__unset( $offset );
 	}
@@ -2460,7 +2460,7 @@ class OODBBean implements\IteratorAggregate,\ArrayAccess,\Countable
 	 *
 	 * @return mixed
 	 */
-	public function &offsetGet( $offset )
+	public function &offsetGet( mixed $offset ): mixed
 	{
 		return $this->__get( $offset );
 	}
@@ -2551,7 +2551,7 @@ class OODBBean implements\IteratorAggregate,\ArrayAccess,\Countable
 	 *
 	 * @return integer
 	 */
-	public function count()
+	public function count(): int
 	{
 		return count( $this->properties );
 	}
@@ -2878,7 +2878,7 @@ class OODBBean implements\IteratorAggregate,\ArrayAccess,\Countable
 		}
 
 		$this->clearModifiers();
-		return (integer) $count;
+		return (int) $count;
 	}
 
 	/**
@@ -3870,7 +3870,7 @@ interface QueryWriter
 	public function getColumns( $type );
 
 	/**
-	 * Returns the Column Type Code (integer) that corresponds
+	 * Returns the Column Type Code (int) that corresponds
 	 * to the given value type. This method is used to determine the minimum
 	 * column type required to represent the given value.
 	 *
@@ -4288,6 +4288,7 @@ abstract class AQueryWriter
 	 * @var array
 	 */
 	public $typeno_sqltype = array();
+	public $sqltype_typeno = array();
 
 	/**
 	 * Checks whether a number can be treated like an int.
@@ -4372,7 +4373,7 @@ abstract class AQueryWriter
 	 */
 	public static function setNarrowFieldMode( $narrowField )
 	{
-		self::$flagNarrowFieldMode = (boolean) $narrowField;
+		self::$flagNarrowFieldMode = (bool) $narrowField;
 	}
 
 	/**
@@ -4412,7 +4413,7 @@ abstract class AQueryWriter
 	 */
 	public static function setSQLFilters( $sqlFilters, $safeMode = false )
 	{
-		self::$flagSQLFilterSafeMode = (boolean) $safeMode;
+		self::$flagSQLFilterSafeMode = (bool) $safeMode;
 		self::$sqlFilters = $sqlFilters;
 	}
 
@@ -4898,7 +4899,7 @@ abstract class AQueryWriter
 	{
 		static $snippetCache = array();
 
-		if ( trim( $sql ) === '' ) {
+		if ( trim( $sql ?? '' ) === '' ) {
 			return $sql;
 		}
 
@@ -5426,6 +5427,8 @@ use RedBeanPHP\RedException\SQL as SQLException;
  */
 class MySQL extends AQueryWriter implements QueryWriter
 {
+	protected $encoding;
+
 	/**
 	 * Data types
 	 */
@@ -5582,8 +5585,6 @@ class MySQL extends AQueryWriter implements QueryWriter
 	 */
 	public function scanType( $value, $flagSpecial = FALSE )
 	{
-		$this->svalue = $value;
-
 		if ( is_null( $value ) ) return MySQL::C_DATATYPE_BOOL;
 		if ( $value === INF ) return MySQL::C_DATATYPE_TEXT7;
 
@@ -5801,6 +5802,8 @@ use RedBeanPHP\RedException\SQL as SQLException;
  */
 class SQLiteT extends AQueryWriter implements QueryWriter
 {
+	protected $tableArchive;
+
 	/**
 	 * Data types
 	 */
@@ -6029,8 +6032,6 @@ class SQLiteT extends AQueryWriter implements QueryWriter
 	 */
 	public function scanType( $value, $flagSpecial = FALSE )
 	{
-		$this->svalue = $value;
-
 		if ( $value === NULL ) return self::C_DATATYPE_INTEGER;
 		if ( $value === INF ) return self::C_DATATYPE_TEXT;
 
@@ -6415,8 +6416,6 @@ class PostgreSQL extends AQueryWriter implements QueryWriter
 	 */
 	public function scanType( $value, $flagSpecial = FALSE )
 	{
-		$this->svalue = $value;
-
 		if ( $value === INF ) return self::C_DATATYPE_TEXT;
 
 		if ( $flagSpecial && $value ) {
@@ -6706,6 +6705,8 @@ use RedBeanPHP\Cursor\NullCursor as NullCursor;
  */
 abstract class Repository
 {
+	protected $oodb;
+
 	/**
 	 * @var array
 	 */
@@ -7883,7 +7884,7 @@ class OODB extends Observable
 	 */
 	public static function autoClearHistoryAfterStore( $autoClear = TRUE )
 	{
-		self::$autoClearHistoryAfterStore = (boolean) $autoClear;
+		self::$autoClearHistoryAfterStore = (bool) $autoClear;
 	}
 
 	/**
@@ -7940,7 +7941,7 @@ class OODB extends Observable
 			$this->chillList = $toggle;
 			$this->isFrozen  = FALSE;
 		} else {
-			$this->isFrozen = (boolean) $toggle;
+			$this->isFrozen = (bool) $toggle;
 		}
 
 		if ( $this->isFrozen ) {
@@ -7991,7 +7992,7 @@ class OODB extends Observable
 	 */
 	public function isChilled( $type )
 	{
-		return (boolean) ( in_array( $type, $this->chillList ) );
+		return (bool) ( in_array( $type, $this->chillList ) );
 	}
 
 	/**
@@ -8840,6 +8841,8 @@ use RedBeanPHP\RedException\SQL as SQLException;
  */
 class AssociationManager extends Observable
 {
+	protected $toolbox;
+
 	/**
 	 * @var OODB
 	 */
@@ -11675,7 +11678,7 @@ class Facade
 	 */
 	public static function setAutoResolve( $automatic = TRUE )
 	{
-		OODBBean::setAutoResolve( (boolean) $automatic );
+		OODBBean::setAutoResolve( (bool) $automatic );
 	}
 
 	/**
@@ -12683,4 +12686,4 @@ if ( !function_exists( 'array_flatten' ) ) {
 
 
 	}
-	
+

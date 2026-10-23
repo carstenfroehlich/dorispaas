@@ -78,17 +78,14 @@
     }
     
     function startsWith($haystack, $needle) {
-        return $needle === "" || strrpos($haystack, $needle, -strlen($haystack)) !== FALSE;
+        return str_starts_with($haystack, $needle);
     }
     
     function endsWith($haystack, $needle) {
-        return $needle === "" || strpos($haystack, $needle, strlen($haystack) - strlen($needle)) !== FALSE;
+        return str_ends_with($haystack, $needle);
     }
     
     function includes($haystack, $needle) {
-        if (strpos($haystack, $needle) !== false) {
-            return true;
-        }
-        return false;
+        return str_contains($haystack, $needle);
     }
 ?>

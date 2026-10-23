@@ -7,7 +7,7 @@
     }
     
     function sendMyMail($fromname, $replyMail, $replyName, $subject, $altBody, $body, $receiver) {
-        $mail = new PHPMailer();
+        $mail = new \PHPMailer\PHPMailer\PHPMailer();
         $mail->IsHTML(true);
         $mail->From     = $replyMail;
         $mail->FromName = $fromname;

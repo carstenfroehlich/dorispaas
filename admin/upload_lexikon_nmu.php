@@ -34,6 +34,7 @@
     }
     
     $separator = ";";
+    $total_num_insertions = 0;
     
     if ( array_key_exists( "file", $_FILES ) ) {
         $expected_column_count = 14;
@@ -74,8 +75,8 @@
         if ( ( $handle = fopen( $filename, "r" ) ) !== FALSE )
         {
             // Skip first line.
-            $data = fgetcsv( $handle, 1024, $separator );
-            $num = count( $data );
+            $data = fgetcsv( $handle, 1024, $separator, '"', "" );
+            $num = is_array( $data ) ? count( $data ) : 0;
             
             if ( $num != $expected_column_count )
             {
@@ -93,13 +94,12 @@
             $total_num_insertions = 0;
             $insert_sql = $insert_sql_start;
             
-            while ( ( $data = fgetcsv( $handle, 4096, $separator ) ) !== FALSE ) {
+            while ( ( $data = fgetcsv( $handle, 4096, $separator, '"', "" ) ) !== FALSE ) {
                 $lineNum++;
                 $num = count( $data );
                 
                 if ( $num != $expected_column_count ) {
                     fclose( $handle );
-                    mysql_close( $mysql );
                     
                     echo "<div>\n";
                     echo "<div>Die Datei ist ung&uuml;ltig. Erwartete Spaltenanzahl: " . $expected_column_count . ". Zeile " . $lineNum . " : " . $num . " Spalten.</div>\n";
@@ -152,11 +152,6 @@
                 if ( $num_insertions >= 100 ) {
                     runQueryLexikonNmu( $insert_sql );
                     
-                    $err = mysql_error();
-                    if ( $err != "" ) {
-                        echo "<div style=\"background-color: #FF3131;\">Fehler: " . $err . ".</div>\n";
-                    }
-                    
                     $insert_sql = $insert_sql_start;
                     $num_insertions = 0;
                 }
@@ -164,11 +159,6 @@
             
             if ( $num_insertions > 0 ) {
                 runQueryLexikonNmu( $insert_sql );
-                
-                $err = mysql_error();
-                if ( $err != "" ) {
-                    echo "<div style=\"background-color: #FF3131;\">Fehler: " . $err . ".</div>\n";
-                }
                 
                 $insert_sql = $insert_sql_start;
                 $num_insertions = 0;

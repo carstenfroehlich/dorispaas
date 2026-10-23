@@ -84,7 +84,7 @@ bis hierher Ende der Urlaubsnachricht
                         </ul>
                     </div>
                     <div class="col s12 m6">
-                        <iframe src="//player.vimeo.com/video/79489466" width="650" height="365" <?= ( strpos( strtolower( $_SERVER[ "HTTP_USER_AGENT" ] ), "webkit" ) !== FALSE ) ? "webkitallowfullscreen" : ( ( strpos( strtolower( $_SERVER[ "HTTP_USER_AGENT" ] ), "gecko" ) !== FALSE ) ? "mozallowfullscreen" : "allowfullscreen" ) ?>></iframe> <br />
+                        <iframe src="//player.vimeo.com/video/79489466" width="650" height="365" <?= ( strpos( strtolower( $_SERVER[ "HTTP_USER_AGENT" ] ?? "" ), "webkit" ) !== FALSE ) ? "webkitallowfullscreen" : ( ( strpos( strtolower( $_SERVER[ "HTTP_USER_AGENT" ] ?? "" ), "gecko" ) !== FALSE ) ? "mozallowfullscreen" : "allowfullscreen" ) ?>></iframe> <br />
                     </div>
                 </div>
             <div class="section">  

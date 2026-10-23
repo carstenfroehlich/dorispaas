@@ -8,7 +8,7 @@
         if(isset($existingUser) && $existingUser->id > 0) {
             $found = true;
             $password = createPassword();
-            $existingUser = loadUser(updateUserPassword(securePassword($password)));
+            $existingUser = loadUser(updateUserPassword($existingUser, securePassword($password)));
             
             mailNewPassword($existingUser, $password);
             $message = "Ein neues Passwort wurde an Ihre Emailadresse versendet.";

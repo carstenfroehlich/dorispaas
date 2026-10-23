@@ -46,7 +46,7 @@
                             {
                                 setLocale( LC_CTYPE, "de_DE" ); // strtolower auch mit Umlauten
                                 
-                                $suchwoerter = @split( " ", strtolower( $_POST["suchen"] ) );
+                                $suchwoerter = explode( " ", strtolower( $_POST["suchen"] ) );
                                 
                                 $pfad = "./template/";
                                 $verz = openDir( $pfad );

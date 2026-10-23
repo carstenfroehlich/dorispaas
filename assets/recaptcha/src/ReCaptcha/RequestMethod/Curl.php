@@ -76,6 +76,6 @@ class Curl
      */
     public function close($ch)
     {
-        curl_close($ch);
+        // PHP 8 uses CurlHandle objects; they are released automatically.
     }
 }

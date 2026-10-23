@@ -12,15 +12,8 @@
     }
 
     $req = 'cmd=_notify-validate';
-    if(function_exists('get_magic_quotes_gpc')) {
-        $get_magic_quotes_exists = true;
-    } 
-    foreach ($myPost as $key => $value) {        
-       if($get_magic_quotes_exists == true && get_magic_quotes_gpc() == 1) { 
-            $value = urlencode(stripslashes($value)); 
-       } else {
-            $value = urlencode($value);
-       }
+    foreach ($myPost as $key => $value) {
+        $value = urlencode($value);
        $req .= "&$key=$value";
        createPaypalIpnData($user_id, $key, $value);
     }
@@ -36,10 +29,10 @@
     curl_setopt($ch, CURLOPT_HTTPHEADER, array('Connection: Close'));
 
     if( !($res = curl_exec($ch)) ) {
-        curl_close($ch);
+        $ch = null;
         exit;
     }
-    curl_close($ch);
+    $ch = null;
     
     if (strcmp ($res, "VERIFIED") == 0) {
         $shopcookie = loadUserCart($_GET['cart'])->token;

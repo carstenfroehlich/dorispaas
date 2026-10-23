@@ -13,7 +13,7 @@
                         An dieser Stelle finden Sie als Leseprobe einige Seiten aus dem Laktose-Intoleranz Buch. Schnuppern Sie doch einmal rein.
                         <br /><br />
                         <?php
-                            $seite = array_key_exists( "seite", $_GET ) ? $_GET["seite"] * 1 : 0;
+                            $seite = filter_var( $_GET["seite"] ?? 0, FILTER_VALIDATE_INT ) ?: 0;
                             if ( $seite == 12 ) { 
                         ?>
                         <b>Wenn Sie DAS LAKTOSE-INTOLERANZ BUCH komplett lesen m&ouml;chten, k&ouml;nnen 

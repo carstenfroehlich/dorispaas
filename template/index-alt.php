@@ -16,7 +16,7 @@
                     <div class="col s12 m6 height100">          
                         <div class="icon-block height100">
                             <div class="video-wrapper">
-                                <iframe src="//player.vimeo.com/video/233650472" <?= ( strpos( strtolower( $_SERVER[ "HTTP_USER_AGENT" ] ), "webkit" ) !== FALSE ) ? "webkitallowfullscreen" : ( ( strpos( strtolower( $_SERVER[ "HTTP_USER_AGENT" ] ), "gecko" ) !== FALSE ) ? "mozallowfullscreen" : "allowfullscreen" ) ?>></iframe>        
+                                <iframe src="//player.vimeo.com/video/233650472" <?= ( strpos( strtolower( $_SERVER[ "HTTP_USER_AGENT" ] ?? "" ), "webkit" ) !== FALSE ) ? "webkitallowfullscreen" : ( ( strpos( strtolower( $_SERVER[ "HTTP_USER_AGENT" ] ?? "" ), "gecko" ) !== FALSE ) ? "mozallowfullscreen" : "allowfullscreen" ) ?>></iframe>
                             </div>
                         </div>        
                     </div>  
